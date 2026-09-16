@@ -9,14 +9,14 @@
   <style>
     :root{--plum:#291d37;--melon:#ff9c82;--mint:#c9ede0;--vanilla:#f3ebd9}
     *{box-sizing:border-box}
-    body{margin:0;background:var(--vanilla);color:var(--plum);font-family:'DM Sans',Arial,sans-serif}
+    body{margin:0;background:var(--vanilla);color:var(--plum);font-family:'Manrope',Arial,sans-serif}
     a{color:inherit}
     .masthead{background:var(--plum);color:var(--vanilla);padding:24px clamp(22px,7vw,90px);display:flex;justify-content:space-between;align-items:center;gap:24px}
     .masthead strong{font-size:16px;letter-spacing:.12em}
     .masthead a{text-decoration:none;border-bottom:1px solid var(--melon);font-size:13px}
     .intro{padding:75px clamp(22px,7vw,90px) 65px;max-width:1050px}
     .eyebrow{font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:#93425c}
-    h1{font-family:'Newsreader',Georgia,serif;font-size:clamp(54px,7vw,100px);line-height:1;font-weight:400;letter-spacing:-.04em;margin:25px 0}
+    h1{font-family:'Fraunces',Georgia,serif;font-size:clamp(54px,7vw,100px);line-height:1;font-weight:400;letter-spacing:-.04em;margin:25px 0}
     .intro>p:last-child{font-size:20px;line-height:1.55;max-width:680px}
     .list{padding:0 clamp(22px,7vw,90px) 100px;display:grid;gap:35px}
     .option{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(230px,.75fr);border:1px solid var(--plum);background:#fbf8f0}
@@ -30,7 +30,8 @@
     .notes p{font-size:15px;line-height:1.6}
     .stack{margin-top:40px;border-top:1px solid var(--plum);padding-top:20px}
     .stack code{display:block;font-size:13px;line-height:1.7;overflow-wrap:anywhere;margin-top:8px}
-    .option--newsreader .sample h2,.option--newsreader .sample p{font-family:'Newsreader',Georgia,serif}
+    .option--newsreader .sample h2{font-family:'Newsreader',Georgia,serif}
+    .option--newsreader .sample p{font-family:'DM Sans',Arial,sans-serif;font-size:19px}
     .option--fraunces .sample h2{font-family:'Fraunces',Georgia,serif}
     .option--fraunces .sample p{font-family:'Manrope',Arial,sans-serif;font-size:19px}
     .option--fraunces .notes{background:var(--melon)}
@@ -42,10 +43,10 @@
 </head>
 <body>
   <header class="masthead"><strong>BRAND METHOD / TYPE STUDY</strong><a href="index.html">Back to the site ↗</a></header>
-  <section class="intro"><p class="eyebrow">AFTER HOURS / THREE FONT STACKS</p><h1>Same words.<br>Different voices.</h1><p>These are free typefaces shown with the actual Brand Method copy. The first pairing is on the redesigned site; the other two show how its tone could change.</p></section>
+  <section class="intro"><p class="eyebrow">AFTER HOURS / THREE FONT STACKS</p><h1>Same words.<br>Different voices.</h1><p>These are free typefaces shown with the actual Brand Method copy. Pairing two, Fraunces and Manrope, is now used across the site.</p></section>
   <main class="list">
-    <article class="option option--newsreader"><div class="sample"><small>01 / THE CURRENT CHOICE</small><h2>I have opinions.<br><em>Quite a few.</em></h2><p>Some brand ideas make me want to tell everyone about them. Others bother me enough that I have to work out why.</p></div><aside class="notes"><div><h3>Intimate & editorial</h3><p>Newsreader brings warmth and a human rhythm to the headlines and essays. DM Sans keeps navigation, captions, and controls clear.</p></div><div class="stack"><span class="eyebrow">CSS FONT STACKS</span><code>Headlines: 'Newsreader', Georgia, serif</code><code>Body & UI: 'DM Sans', Arial, sans-serif</code></div></aside></article>
-    <article class="option option--fraunces"><div class="sample"><small>02 / THE EXPRESSIVE OPTION</small><h2>I have opinions.<br><em>Quite a few.</em></h2><p>Some brand ideas make me want to tell everyone about them. Others bother me enough that I have to work out why.</p></div><aside class="notes"><div><h3>Playful & assertive</h3><p>Fraunces gives the headlines a more distinctive personality. Manrope gives the longer text a contemporary, direct feel.</p></div><div class="stack"><span class="eyebrow">CSS FONT STACKS</span><code>Headlines: 'Fraunces', Georgia, serif</code><code>Body & UI: 'Manrope', Arial, sans-serif</code></div></aside></article>
+    <article class="option option--newsreader"><div class="sample"><small>01 / AN ALTERNATE VOICE</small><h2>I have opinions.<br><em>Quite a few.</em></h2><p>Some brand ideas make me want to tell everyone about them. Others bother me enough that I have to work out why.</p></div><aside class="notes"><div><h3>Intimate & editorial</h3><p>Newsreader brings warmth and a human rhythm to the headlines. DM Sans keeps navigation and longer text clear.</p></div><div class="stack"><span class="eyebrow">CSS FONT STACKS</span><code>Headlines: 'Newsreader', Georgia, serif</code><code>Body & UI: 'DM Sans', Arial, sans-serif</code></div></aside></article>
+    <article class="option option--fraunces"><div class="sample"><small>02 / YOUR CHOICE — NOW LIVE</small><h2>I have opinions.<br><em>Quite a few.</em></h2><p>Some brand ideas make me want to tell everyone about them. Others bother me enough that I have to work out why.</p></div><aside class="notes"><div><h3>Playful & assertive</h3><p>Fraunces gives the headlines a more distinctive personality. Manrope gives the longer text a contemporary, direct feel.</p></div><div class="stack"><span class="eyebrow">CSS FONT STACKS</span><code>Headlines: 'Fraunces', Georgia, serif</code><code>Body & UI: 'Manrope', Arial, sans-serif</code></div></aside></article>
     <article class="option option--bodoni"><div class="sample"><small>03 / THE HIGH-CONTRAST OPTION</small><h2>I have opinions.<br><em>Quite a few.</em></h2><p>Some brand ideas make me want to tell everyone about them. Others bother me enough that I have to work out why.</p></div><aside class="notes"><div><h3>Fashion journal & precise</h3><p>Bodoni Moda is sharper and more dramatic; IBM Plex Sans grounds it in clear, practical analysis.</p></div><div class="stack"><span class="eyebrow">CSS FONT STACKS</span><code>Headlines: 'Bodoni Moda', 'Times New Roman', serif</code><code>Body & UI: 'IBM Plex Sans', Arial, sans-serif</code></div></aside></article>
   </main>
 </body>
