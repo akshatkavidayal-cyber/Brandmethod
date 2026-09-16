@@ -1,0 +1,79 @@
+[
+  {
+    "slug": "share-a-coke-2025",
+    "brand": "Coca-Cola",
+    "industry": "Beverages",
+    "lens": "Campaign & packaging",
+    "date": "2026-09-16",
+    "title": "Share a Coke turns a familiar SKU into a social object",
+    "dek": "The 2025 return shows how packaging can become both a reason to search and a reason to share.",
+    "thesis": "The name on the pack gives an ordinary purchase a recipient. That shifts the buying question from ‘Do I want a Coke?’ to ‘Who would I give this to?’",
+    "facts": [
+      "Coca-Cola said the 2025 campaign brought names back to bottles and cans and connected physical packaging with digital experiences.",
+      "Its second-quarter release said the campaign reached more than 120 countries, with over 30,000 locally tailored names on about 10 billion bottles and cans."
+    ],
+    "analysis": [
+      "Personalization makes the product itself the media placement. The label is visible in store, in a gift, and in a photo without asking the buyer to repeat a slogan.",
+      "Names also create a discovery loop: people look for their own name or a friend's, giving the shelf a small game mechanic. That is an inference about the experience, not a claim about measured sales lift.",
+      "The digital layer gives people whose names are absent from shelves another way to participate, while the physical can remains the memorable artifact."
+    ],
+    "weakness": "The mechanic depends on finding a meaningful name. A locally narrow name selection could make the invitation feel less inclusive; public materials do not show how often that happened.",
+    "test": "Compare gift intent and purchase intent for named packs, customizable digital packs, and standard packs, segmented by whether a shopper found the desired name.",
+    "limitation": "The company reports campaign scale, but the public sources cited here do not isolate incremental sales caused by personalization.",
+    "sources": [
+      {"label": "Coca-Cola campaign announcement", "url": "https://www.coca-colacompany.com/media-center/iconic-share-a-coke-is-back-for-a-new-generation"},
+      {"label": "Coca-Cola Q2 2025 earnings release", "url": "https://www.coca-colacompany.com/content/dam/company/us/en/media-center/Coca-Cola-2025-Q2-Earnings-Release-Full-Release-7.22.25.pdf"}
+    ]
+  },
+  {
+    "slug": "spotify-wrapped-2025",
+    "brand": "Spotify",
+    "industry": "Streaming",
+    "lens": "Product & campaign",
+    "date": "2026-09-16",
+    "title": "Wrapped makes usage data feel like identity",
+    "dek": "A product recap becomes a cultural campaign when people want to show the result to someone else.",
+    "thesis": "Wrapped's strongest asset is its distribution design: the product creates personal stories, and the campaign gives those stories public places to travel.",
+    "facts": [
+      "Spotify launched 2025 Wrapped with new listening stories and a social feature called Wrapped Party.",
+      "Spotify said its 2025 creative campaign ran in more than 30 markets and included around 50 physical installations and pop-ups."
+    ],
+    "analysis": [
+      "The recap converts private behavior into a ready-made self-portrait. A user can share a highly personal result without having to design or explain it.",
+      "Wrapped Party adds a group occasion to what was once primarily an individual reveal. This gives the annual release another reason to be opened and discussed.",
+      "The physical activations extend the same visual language into cities. They make an in-app feature legible even to people who have not opened the app that day."
+    ],
+    "weakness": "An annual burst can be hard to translate into lasting engagement. The cited launch materials do not establish whether the new social feature improved retention.",
+    "test": "Compare repeat app opens and sharing among users who join a Wrapped Party with similar users who only view their personal recap.",
+    "limitation": "This analysis describes campaign design. It does not claim access to Spotify's internal engagement or conversion data.",
+    "sources": [
+      {"label": "Spotify 2025 Wrapped campaign", "url": "https://newsroom.spotify.com/2025-12-03/wrapped-marketing-campaign/"},
+      {"label": "Spotify 2025 Wrapped product experience", "url": "https://newsroom.spotify.com/2025-12-03/2025-wrapped-user-experience/"}
+    ]
+  },
+  {
+    "slug": "nike-air-max-95000",
+    "brand": "Nike",
+    "industry": "Footwear",
+    "lens": "Product & launch",
+    "date": "2026-09-16",
+    "title": "Air Max 95000 sells a method as much as a shoe",
+    "dek": "The 3D-printed silhouette is a product launch built to carry a broader innovation story.",
+    "thesis": "A visible manufacturing difference makes the product a proof point for Nike's innovation narrative, before a customer ever evaluates comfort or performance.",
+    "facts": [
+      "Nike unveiled the 3D-printed Air Max 95000 at ComplexCon in October 2025.",
+      "Nike positioned the silhouette as a continuation of Air Max design and its wider Air innovation platform."
+    ],
+    "analysis": [
+      "The shoe's form gives the manufacturing story something immediately visible. That matters because a production technique is otherwise difficult to communicate at a glance.",
+      "Launching at a culture-led event frames the shoe as a conversation piece and collectible, not merely a technical specification.",
+      "The 95000 name and Air Max lineage connect the unfamiliar construction to an established franchise, reducing the need to explain the entire product from scratch."
+    ],
+    "weakness": "Visual novelty may dominate the story. Buyers still need clear reasons to value the material and fit in everyday use.",
+    "test": "Test two product-page narratives: one led by design and collectibility, the other by construction and use. Measure qualified product interest and purchase intent.",
+    "limitation": "Nike's announcement establishes the launch and positioning, but it does not show which message drove purchase decisions.",
+    "sources": [
+      {"label": "Nike Air Max 95000 announcement", "url": "https://about.nike.com/en/newsroom/releases/nike-air-max-95000-official-images-release-info"}
+    ]
+  }
+]
