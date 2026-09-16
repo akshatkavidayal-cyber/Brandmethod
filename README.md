@@ -1,27 +1,22 @@
 # Brand Method
 
-Akshat Kavidayal's marketing case-study portfolio. The [GitHub Pages site](https://akshatkavidayal-cyber.github.io/Brandmethod/) is the publishing destination for future case studies. The earlier [Sites copy](https://brand-method-portfolio.akshatkavidayal.chatgpt.site/) remains online but will not receive new studies automatically.
+Akshat Kavidayal's independent, opinion-led marketing portfolio lives at [akshatkavidayal-cyber.github.io/Brandmethod](https://akshatkavidayal-cyber.github.io/Brandmethod/). GitHub Pages builds the site with `scripts/build.py` when the manual `Publish coordinated release` workflow is run.
 
-## Edit content in GitHub
+## Edit an article
 
-Open a file below, click the pencil icon, make your changes, and commit them. A commit saves the source; it does not publish a new study. When the release is ready, run **Actions → Publish coordinated release → Run workflow**.
+The first two pieces live in `content/from-linkedin.json`; the other six live in `content/studies.json`. Each article has a title, short description, opening, a `story` array, a limitation note and source links. The story is edited block by block, in the order that best suits that particular case:
 
-- [Introduction and LinkedIn profile](site.json)
-- [Daddy Sugar and Vaseline studies](content/from-linkedin.json)
-- [Coca-Cola, Spotify, and Nike studies](content/studies.json)
+- `{"type": "heading", "text": "..."}`
+- `{"type": "paragraph", "text": "..."}`
+- `{"type": "list", "items": ["...", "..."]}`
+- `{"type": "aside", "label": "...", "text": "..."}`
 
-Each study includes a title, short introduction, facts, analysis, weakness, proposed test, limitations, and direct source links. Keep the JSON punctuation intact. The About page wording is currently in `scripts/build.py` and visual styling in `assets/styles.css`; ask for help with these code files if desired.
+Use only the blocks the story needs. Give each heading its own point of view. Avoid reusing a numbered analysis framework across articles. If a brand mark is available, put its filename in `logo` and keep the asset in `assets/`. See `assets/LOGOS.md` for the current marks and their sources.
 
-## Coordinated release
+Edit `site.json` for the site introduction and LinkedIn link. The About page copy and layout are in `scripts/build.py`; styling is in `assets/styles.css`. Run `python3 scripts/build.py` to preview changes locally. On GitHub, edit the files directly, then run the manual publishing workflow after reviewing the generated site.
 
-The recurring research task runs Monday, Wednesday, and Friday using free public sources. It prepares a verified study, a LinkedIn post linking to the exact article, and an Instagram carousel outline and caption. New studies must remain drafts until the publishing route is ready and the package has been reviewed.
+## Editorial and social release
 
-For a release: review all three drafts and evidence; commit the study; run the manual Pages workflow; verify the article URL; publish the LinkedIn post with that link and the Instagram adaptation in the same release session; record the live links. These platforms cannot publish as a single transaction. Report and retry a partial failure.
+Research leads run on Monday, Wednesday and Friday from free public feeds. They are leads, not publishable articles. Check original brand or company sources, dates and product details; distinguish an opinion from a measured result; include limitations and links. Write the article in Akshat's own voice. Review the website, LinkedIn and Instagram drafts together.
 
-The currently connected LinkedIn app supports professional lookup, not posting. Instagram publishing is not connected. Until supported posting is configured, keep future study packages in draft. Do not invent publication links.
-
-The separate **Research leads** GitHub workflow gathers leads from free RSS feeds and creates a public GitHub issue on Monday, Wednesday, and Friday. Headlines are leads, not evidence. GitHub Issues in this public repository are visible to anyone.
-
-## Editorial standards
-
-The five initial studies include two expanded from earlier LinkedIn drafts and three editorial starters. Review them as your own work before sharing them with employers. Use original company pages, public ad libraries, and other free primary materials. Link sources, keep interpretation distinct from fact, and avoid unsupported sales or performance claims.
+The website can be published through GitHub Pages. LinkedIn and Instagram posting are separate steps and are not automated or connected here. When those routes are available, publish the website, verify its public URL, then post the social adaptations in one coordinated release session. Record the live links. Do not imply a social post went live unless it did.

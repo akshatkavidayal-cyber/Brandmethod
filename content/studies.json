@@ -5,24 +5,59 @@
     "industry": "Beverages",
     "lens": "Campaign & packaging",
     "date": "2026-09-16",
-    "title": "Share a Coke turns a familiar SKU into a social object",
-    "dek": "The 2025 return shows how packaging can become both a reason to search and a reason to share.",
-    "thesis": "The name on the pack gives an ordinary purchase a recipient. That shifts the buying question from ‘Do I want a Coke?’ to ‘Who would I give this to?’",
-    "facts": [
-      "Coca-Cola said the 2025 campaign brought names back to bottles and cans and connected physical packaging with digital experiences.",
-      "Its second-quarter release said the campaign reached more than 120 countries, with over 30,000 locally tailored names on about 10 billion bottles and cans."
-    ],
-    "analysis": [
-      "Personalization makes the product itself the media placement. The label is visible in store, in a gift, and in a photo without asking the buyer to repeat a slogan.",
-      "Names also create a discovery loop: people look for their own name or a friend's, giving the shelf a small game mechanic. That is an inference about the experience, not a claim about measured sales lift.",
-      "The digital layer gives people whose names are absent from shelves another way to participate, while the physical can remains the memorable artifact."
-    ],
-    "weakness": "The mechanic depends on finding a meaningful name. A locally narrow name selection could make the invitation feel less inclusive; public materials do not show how often that happened.",
-    "test": "Compare gift intent and purchase intent for named packs, customizable digital packs, and standard packs, segmented by whether a shopper found the desired name.",
-    "limitation": "The company reports campaign scale, but the public sources cited here do not isolate incremental sales caused by personalization.",
+    "title": "Share a Coke gives the buyer someone to look for",
+    "dek": "Putting a name on the bottle changes the shopping question, then gives the answer somewhere to travel.",
+    "limitation": "Coca-Cola reports the campaign's mechanics and scale. The claim that names change search and gifting behaviour is my interpretation; these public sources do not isolate incremental sales from personalization.",
     "sources": [
-      {"label": "Coca-Cola campaign announcement", "url": "https://www.coca-colacompany.com/media-center/iconic-share-a-coke-is-back-for-a-new-generation"},
-      {"label": "Coca-Cola Q2 2025 earnings release", "url": "https://www.coca-colacompany.com/content/dam/company/us/en/media-center/Coca-Cola-2025-Q2-Earnings-Release-Full-Release-7.22.25.pdf"}
+      {
+        "label": "Coca-Cola campaign announcement",
+        "url": "https://www.coca-colacompany.com/media-center/iconic-share-a-coke-is-back-for-a-new-generation"
+      },
+      {
+        "label": "Coca-Cola Q2 2025 earnings release",
+        "url": "https://www.coca-colacompany.com/content/dam/company/us/en/media-center/Coca-Cola-2025-Q2-Earnings-Release-Full-Release-7.22.25.pdf"
+      }
+    ],
+    "logo": "logo-cocacola.svg",
+    "opening": "A Coke is usually bought for a moment. A Coke with somebody's name on it is bought for a person. That tiny change has always been the best part of Share a Coke for me, and it is why the 2025 return deserves more attention than a nostalgia headline.",
+    "story": [
+      {
+        "type": "heading",
+        "text": "The pack becomes the invitation"
+      },
+      {
+        "type": "paragraph",
+        "text": "Coca-Cola brought first names back to cans and bottles in 2025. The company said the rollout would reach more than 120 countries; its second-quarter release reported over 30,000 locally tailored names across roughly 10 billion packs. Those figures describe extraordinary scale. The mechanic, though, works at the scale of one friend spotting another friend's name."
+      },
+      {
+        "type": "paragraph",
+        "text": "I think that changes the shelf from a display of identical SKUs into a small search. You look for your own name, then perhaps someone else's. A routine purchase gets a recipient, and the packaging supplies the story you might tell when you hand it over."
+      },
+      {
+        "type": "list",
+        "items": [
+          "A name makes the product easier to photograph and send.",
+          "The physical pack gives the recipient something tangible.",
+          "The search itself gives a shopper one more reason to scan the shelf."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "What happens when your name is missing?"
+      },
+      {
+        "type": "paragraph",
+        "text": "This is the fault line in personalization at scale. A shopper who cannot find the right name may feel the campaign is for other people. Coca-Cola's 2025 digital hub, reached through its app and on-pack QR codes, offered more names and shareable video creation. I read that as a way to extend participation beyond the names a store can stock."
+      },
+      {
+        "type": "aside",
+        "label": "A question I would ask",
+        "text": "Does the digital option rescue the disappointment of an absent name, or does it feel like homework after the shelf has already let you down?"
+      },
+      {
+        "type": "paragraph",
+        "text": "The company's materials prove distribution and describe the experience; they do not prove that names caused incremental sales. I would compare gifting intent and actual purchase across named packs, customizable digital packs and standard packs, especially for people who did not find the name they wanted. That is where the promise of inclusion meets the reality of a SKU."
+      }
     ]
   },
   {
@@ -31,24 +66,54 @@
     "industry": "Streaming",
     "lens": "Product & campaign",
     "date": "2026-09-16",
-    "title": "Wrapped makes usage data feel like identity",
-    "dek": "A product recap becomes a cultural campaign when people want to show the result to someone else.",
-    "thesis": "Wrapped's strongest asset is its distribution design: the product creates personal stories, and the campaign gives those stories public places to travel.",
-    "facts": [
-      "Spotify launched 2025 Wrapped with new listening stories and a social feature called Wrapped Party.",
-      "Spotify said its 2025 creative campaign ran in more than 30 markets and included around 50 physical installations and pop-ups."
-    ],
-    "analysis": [
-      "The recap converts private behavior into a ready-made self-portrait. A user can share a highly personal result without having to design or explain it.",
-      "Wrapped Party adds a group occasion to what was once primarily an individual reveal. This gives the annual release another reason to be opened and discussed.",
-      "The physical activations extend the same visual language into cities. They make an in-app feature legible even to people who have not opened the app that day."
-    ],
-    "weakness": "An annual burst can be hard to translate into lasting engagement. The cited launch materials do not establish whether the new social feature improved retention.",
-    "test": "Compare repeat app opens and sharing among users who join a Wrapped Party with similar users who only view their personal recap.",
-    "limitation": "This analysis describes campaign design. It does not claim access to Spotify's internal engagement or conversion data.",
+    "title": "Wrapped makes listeners its distribution plan",
+    "dek": "The annual recap is powerful because the product gives people a story they already want to tell.",
+    "limitation": "Spotify's newsroom establishes the 2025 product additions and campaign footprint. This is an interpretation of the distribution design, without internal retention or conversion data.",
     "sources": [
-      {"label": "Spotify 2025 Wrapped campaign", "url": "https://newsroom.spotify.com/2025-12-03/wrapped-marketing-campaign/"},
-      {"label": "Spotify 2025 Wrapped product experience", "url": "https://newsroom.spotify.com/2025-12-03/2025-wrapped-user-experience/"}
+      {
+        "label": "Spotify 2025 Wrapped campaign",
+        "url": "https://newsroom.spotify.com/2025-12-03/wrapped-marketing-campaign/"
+      },
+      {
+        "label": "Spotify 2025 Wrapped product experience",
+        "url": "https://newsroom.spotify.com/2025-12-03/2025-wrapped-user-experience/"
+      }
+    ],
+    "logo": "logo-spotify.svg",
+    "opening": "Every December, a streaming app asks people to share what they did inside a streaming app. That should sound like a difficult marketing brief. Wrapped works because the answer feels less like a usage report and more like a slightly embarrassing, occasionally flattering portrait of a person.",
+    "story": [
+      {
+        "type": "paragraph",
+        "text": "Spotify's 2025 release added new listening stories and a social feature called Wrapped Party. The company also took the creative into more than 30 markets with around 50 installations and pop-ups. I find the physical campaign interesting, but the distribution engine starts inside the product."
+      },
+      {
+        "type": "heading",
+        "text": "The user gets the interesting creative"
+      },
+      {
+        "type": "paragraph",
+        "text": "A Wrapped card is personalized before anybody posts it. The listener does not have to design the graphic or explain why it matters. Spotify does that work in the app, and the listener supplies the identity that makes it worth showing. This is why an annual product feature can travel much further than a conventional brand message."
+      },
+      {
+        "type": "paragraph",
+        "text": "The 2025 visual language leaned into a mixtape feeling, then appeared on streets and at fan destinations. That makes the same idea visible to someone who has opened Wrapped and someone who has not. The out-of-home work amplifies a ritual the audience already understands."
+      },
+      {
+        "type": "heading",
+        "text": "Wrapped Party is the more revealing addition"
+      },
+      {
+        "type": "paragraph",
+        "text": "A personal recap is a reveal; a party is a comparison. By giving friends a way to revisit their years together, Spotify created another occasion to open the experience. Whether that occasion produces lasting use is a separate question. The public launch material does not show that."
+      },
+      {
+        "type": "paragraph",
+        "text": "After the screenshots disappear from feeds, do people who join a Wrapped Party come back to listen more, or did the party simply make the first week louder?"
+      },
+      {
+        "type": "paragraph",
+        "text": "That is the difference between an annual cultural spike and a product habit. I would compare repeat opens and listening among similar users who viewed only their personal recap and users who also joined a Party, while being careful about the fact that more social listeners may have been more engaged to begin with."
+      }
     ]
   },
   {
@@ -57,23 +122,50 @@
     "industry": "Footwear",
     "lens": "Product & launch",
     "date": "2026-09-16",
-    "title": "Air Max 95000 sells a method as much as a shoe",
-    "dek": "The 3D-printed silhouette is a product launch built to carry a broader innovation story.",
-    "thesis": "A visible manufacturing difference makes the product a proof point for Nike's innovation narrative, before a customer ever evaluates comfort or performance.",
-    "facts": [
-      "Nike unveiled the 3D-printed Air Max 95000 at ComplexCon in October 2025.",
-      "Nike positioned the silhouette as a continuation of Air Max design and its wider Air innovation platform."
-    ],
-    "analysis": [
-      "The shoe's form gives the manufacturing story something immediately visible. That matters because a production technique is otherwise difficult to communicate at a glance.",
-      "Launching at a culture-led event frames the shoe as a conversation piece and collectible, not merely a technical specification.",
-      "The 95000 name and Air Max lineage connect the unfamiliar construction to an established franchise, reducing the need to explain the entire product from scratch."
-    ],
-    "weakness": "Visual novelty may dominate the story. Buyers still need clear reasons to value the material and fit in everyday use.",
-    "test": "Test two product-page narratives: one led by design and collectibility, the other by construction and use. Measure qualified product interest and purchase intent.",
-    "limitation": "Nike's announcement establishes the launch and positioning, but it does not show which message drove purchase decisions.",
+    "title": "Air Max 95000 makes the manufacturing story visible",
+    "dek": "The shoe looks unfamiliar enough to announce a new method, and familiar enough to belong to Air Max.",
+    "limitation": "Nike's announcement supports the product details, venue and positioning. The argument about attention and purchase intent is my interpretation; no cited data identifies which message sold the shoe.",
     "sources": [
-      {"label": "Nike Air Max 95000 announcement", "url": "https://about.nike.com/en/newsroom/releases/nike-air-max-95000-official-images-release-info"}
+      {
+        "label": "Nike Air Max 95000 announcement",
+        "url": "https://about.nike.com/en/newsroom/releases/nike-air-max-95000-official-images-release-info"
+      }
+    ],
+    "logo": "logo-nike.svg",
+    "opening": "Most product announcements ask us to believe a technical story in the copy. The Air Max 95000 puts its technical story on its body. You can see that this shoe was made differently before anybody tells you how.",
+    "story": [
+      {
+        "type": "paragraph",
+        "text": "Nike unveiled the 3D-printed Air Max 95000 at ComplexCon in October 2025. The shoe uses Nike's Project Nectar process, was developed with Zellerfeld, and pairs a sculptural printed chassis with Max Air units in the heel and forefoot. It also deliberately refers back to the Air Max 95. Those specifics matter: this is a new construction method presented inside an old, recognisable family."
+      },
+      {
+        "type": "heading",
+        "text": "Novelty needs an anchor"
+      },
+      {
+        "type": "paragraph",
+        "text": "The printed form is a shortcut to attention. It gives a manufacturing technique a visible shape, which is much easier to discuss than a process diagram. ComplexCon added the right room for that first conversation: people there are prepared to treat a sneaker as an object of culture as well as something to wear."
+      },
+      {
+        "type": "paragraph",
+        "text": "But the Air Max name does another job. It keeps the unfamiliar shoe from floating away as a pure experiment. The “95” reference invites comparison with a known silhouette; the “95000” name suggests a future-facing continuation. I read that as brand architecture doing quiet work behind the spectacle."
+      },
+      {
+        "type": "paragraph",
+        "text": "A shoe can be a superb demonstration of how it was made and still leave the buyer unsure why they should wear it."
+      },
+      {
+        "type": "heading",
+        "text": "After the first glance"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nike's release describes comfort, spring and self-expression. The public announcement cannot tell us which of those reasons would move a customer from admiration to purchase. I would put two versions of the product page in front of interested shoppers: one leads with design and collectibility, the other with construction and everyday feel. Compare qualified interest and purchase intent, then listen for the words people use without prompting."
+      },
+      {
+        "type": "paragraph",
+        "text": "My bet is that the visible method earns the click. The wear experience has to earn the sale. That second part is where innovation stories become product stories."
+      }
     ]
   },
   {
@@ -85,25 +177,48 @@
     "date": "2026-09-16",
     "title": "LEGO Botanicals found its way into the flower budget",
     "dek": "Le Florist made a buildable product feel appropriate for Valentine's Day, and gave the gift an activity to go with it.",
-    "thesis": "The clever move was to enter an existing gifting ritual with a product that changes what happens after the gift is opened.",
     "opening": "I keep coming back to the flower truck. A florist is a familiar place to buy affection on Valentine's Day. LEGO borrowed that setting, filled it with brick-built flowers, and let visitors make a stem of their own. Suddenly a box of pieces had a perfectly ordinary reason to appear in a Valentine's gift conversation.",
-    "facts": [
-      "In January 2025, LEGO announced a Le Florist Flower Truck tour with free workshops to make personalized LEGO Botanicals stems. The planned stops included New York, London, Toronto, Paris, Hamburg and Milan.",
-      "LEGO also offered an eight-minute online floral workshop with Jeff Leatham and Valentine-themed Make & Take sessions in selected stores.",
-      "The Botanicals collection began in 2021. The January 2025 lineup included the Pretty Pink Flower Bouquet, Mini Orchid and Lucky Bamboo, all marked for ages 18 and up."
-    ],
-    "analysis": [
-      "The product choice matters as much as the campaign. Flowers already have a shopping occasion, a recipient and an emotional code. LEGO did not need to invent demand for a new holiday. It needed to make its version of flowers feel like a credible answer to that occasion.",
-      "The truck supplied the missing context. On a shelf, a LEGO bouquet could read as a toy. In a florist-like space, with arrangements and a hands-on workshop, it reads as a gift and an experience. That shift is my interpretation of the staging, not a measured effect reported by LEGO.",
-      "There is another useful detail: the gift can be built together. A conventional bouquet reaches its finished state before the recipient sees it. A Botanicals set can turn the exchange into shared time and then stay in the room as an object. That gives the buyer two reasons to choose it: the moment and the keepsake.",
-      "I also like how the campaign could travel across budgets. A free workshop is an entry point for someone who is merely curious; different sets offer different levels of commitment. The campaign makes the category legible before asking for a purchase."
-    ],
-    "weakness": "The same assembly that creates the experience can also create friction. For someone buying a last-minute gift, a kit that needs time and attention may lose to ready-made flowers. The public campaign material does not show how many visitors later bought a set or built it with someone else.",
-    "test": "At a Valentine gifting display, compare three presentations: finished bouquet only, build-together invitation, and a live mini-build. Track gift consideration, purchase and the buyer's intended recipient. I would especially look for whether the activity framing attracts shoppers who would not normally enter a LEGO aisle.",
     "limitation": "LEGO's release establishes the activations and product lineup. The argument about entering the flower budget and changing the gifting ritual is my analysis; the source does not provide incremental sales or conversion data for Le Florist.",
     "sources": [
-      {"label": "LEGO Botanicals Valentine's Day announcement", "url": "https://www.lego.com/en-us/aboutus/news/2025/january/lego-botanicals-valentines-day"},
-      {"label": "LEGO official logo assets", "url": "https://www.lego.com/en-us/aboutus/newsroom/lego-brand-logos-portfolio-assets"}
+      {
+        "label": "LEGO Botanicals Valentine's Day announcement",
+        "url": "https://www.lego.com/en-us/aboutus/news/2025/january/lego-botanicals-valentines-day"
+      },
+      {
+        "label": "LEGO official logo assets",
+        "url": "https://www.lego.com/en-us/aboutus/newsroom/lego-brand-logos-portfolio-assets"
+      }
+    ],
+    "story": [
+      {
+        "type": "heading",
+        "text": "It entered a ritual that already existed"
+      },
+      {
+        "type": "paragraph",
+        "text": "In January 2025, LEGO announced a Le Florist Flower Truck tour with free make-your-own-stem workshops in cities including New York, London, Toronto, Paris, Hamburg and Milan. It also offered an online floral workshop and selected store sessions. The Botanicals range, launched in 2021, included adult sets such as the Pretty Pink Flower Bouquet, Mini Orchid and Lucky Bamboo."
+      },
+      {
+        "type": "paragraph",
+        "text": "The product choice matters as much as the campaign. Flowers already have a shopping occasion, a recipient and an emotional code. LEGO did not need to invent a holiday; it needed to make its version of flowers feel like a credible answer to one."
+      },
+      {
+        "type": "heading",
+        "text": "The truck did more than display boxes"
+      },
+      {
+        "type": "paragraph",
+        "text": "On a shelf, a LEGO bouquet can read as a toy. In a florist-like setting, with arrangements and a hands-on workshop, it reads as a gift and an experience. That shift is my interpretation of the staging, not a measured effect reported by LEGO."
+      },
+      {
+        "type": "aside",
+        "label": "The part I like most",
+        "text": "A conventional bouquet arrives finished. A Botanicals set can turn the gift into shared time, then stay in the room as a keepsake."
+      },
+      {
+        "type": "paragraph",
+        "text": "There is friction inside that idea too. A last-minute buyer may choose ready-made flowers over a kit that asks for time and attention. At a Valentine's display I would compare a finished bouquet, a build-together invitation and a live mini-build. The revealing question is whether the activity draws shoppers who would never normally enter a LEGO aisle."
+      }
     ]
   },
   {
@@ -115,25 +230,51 @@
     "date": "2026-09-16",
     "title": "Dead Duo worked because the mascot could carry a plot",
     "dek": "A company-reported 1.7 billion organic impressions is striking. The more interesting question is how a character became a repeatable growth asset.",
-    "thesis": "Duolingo made its mascot behave like a character in an ongoing story, giving people a reason to return to the brand between lessons.",
     "opening": "Most mascots are useful until the logo is recognized. Duo had a different job in 2025: disappear, become the subject of a whodunit, and give the internet something to solve. I find that fascinating because a language-learning app briefly behaved like an entertainment property.",
-    "facts": [
-      "In its Q1 2025 shareholder letter, Duolingo described Dead Duo as a social-led whodunit campaign and reported 1.7 billion organic impressions.",
-      "The company said the campaign drove a meaningful lift in new and returning users, but the letter did not publish a campaign-specific user count.",
-      "The same letter reported 46.6 million daily active users for Q1 2025, up 49% year over year, while also describing product experiments aimed at retention and engagement."
-    ],
-    "analysis": [
-      "A recognizable character makes participation unusually easy. You do not have to explain who the owl is before inviting people into the joke. The plot gives fans something to react to, reinterpret and pass along, which is richer than asking them to share an advertisement.",
-      "The campaign also creates a bridge back to the app. Duolingo says it saw a lift in new and resurrected users. That matters more than impressions alone: attention had at least some route to a product behavior. The public number is still a company statement, and the size or durability of that lift is unknown.",
-      "I would be careful about attributing the entire quarter's user growth to Dead Duo. The letter itself credits continuing product tests and improvements. That distinction is the lesson for marketers: a huge story can fill the top of the funnel, while the product has to give newcomers a reason to stay.",
-      "The mascot is doing two jobs at once. It makes Duolingo recognizable in culture and makes the app feel playful when a learner returns. The strongest version of this strategy is a character whose behavior outside the product reinforces the feeling inside it."
-    ],
-    "weakness": "A mascot can become more famous than the service it represents. If people follow the plot but cannot connect it to learning, the campaign can become expensive attention even when media spend is low. Organic impressions also say little about lesson completion or retained learners.",
-    "test": "Create a matched comparison of people exposed to the story who open the app and similar returning users who were not exposed. Track first lesson completed, seven-day learning streak and paid conversion. That would show whether the narrative's attention becomes a useful learning habit.",
     "limitation": "The 1.7 billion impressions and user lift are Duolingo's own reported figures. Public materials here do not isolate the campaign's incremental effect, give the lift's size, or establish how long it lasted.",
     "sources": [
-      {"label": "Duolingo Q1 2025 shareholder letter", "url": "https://duolingo.gcs-web.com/static-files/01420520-3377-4985-887b-55ed3c1e4fc5"},
-      {"label": "Duolingo official logo guidance", "url": "https://design.duolingo.com/identity/logos"}
+      {
+        "label": "Duolingo Q1 2025 shareholder letter",
+        "url": "https://duolingo.gcs-web.com/static-files/01420520-3377-4985-887b-55ed3c1e4fc5"
+      },
+      {
+        "label": "Duolingo official logo guidance",
+        "url": "https://design.duolingo.com/identity/logos"
+      }
+    ],
+    "story": [
+      {
+        "type": "paragraph",
+        "text": "In its Q1 2025 shareholder letter, Duolingo called Dead Duo a social-led whodunit and reported 1.7 billion organic impressions. It said the campaign lifted new and returning users, without publishing a campaign-specific user count. The same letter reported 46.6 million daily active users for the quarter, up 49% year over year."
+      },
+      {
+        "type": "heading",
+        "text": "The owl gave people a plot to pass along"
+      },
+      {
+        "type": "paragraph",
+        "text": "A familiar character makes participation easy. The audience did not need an introduction to Duo before being invited into the joke. A disappearance, clues and a resolution gave them something richer to react to than a single ad."
+      },
+      {
+        "type": "paragraph",
+        "text": "I find the move fascinating because a language-learning app briefly behaved like an entertainment property. Its mascot could generate attention between lessons and make the app feel playful when a learner returned."
+      },
+      {
+        "type": "paragraph",
+        "text": "The 1.7 billion impressions are Duolingo's reported figure. The quarter's user growth cannot be assigned to this campaign; the shareholder letter also discusses product experiments."
+      },
+      {
+        "type": "heading",
+        "text": "A famous owl is not the same as a learning habit"
+      },
+      {
+        "type": "paragraph",
+        "text": "The risk is that people follow the plot without opening a lesson. If I could inspect the funnel, I would look beyond exposure and installs to first lessons completed, seven-day streaks and paid conversion among comparable groups. That would tell me whether a cultural moment had become useful product behaviour."
+      },
+      {
+        "type": "paragraph",
+        "text": "The lesson I take from Dead Duo is not “kill your mascot.” It is to build a character with enough consistent personality that a story can belong to the brand before anyone sees the logo."
+      }
     ]
   },
   {
@@ -145,25 +286,48 @@
     "date": "2026-09-16",
     "title": "Airbnb wants a place in more of the trip",
     "dek": "Services, Experiences and a redesigned app widen the brand's role from booking a place to planning the days around it.",
-    "thesis": "Airbnb is trying to turn the trust earned in stays into a reason to book the rest of a trip in the same place.",
     "opening": "Think about the tabs in a travel app. They quietly tell you what the company thinks it is for. In Airbnb's 2025 release, Homes acquired two peers: Experiences and Services. That small piece of navigation says more about its ambition than a grand campaign line could.",
-    "facts": [
-      "On May 13, 2025, Airbnb introduced Services and a new version of Experiences alongside a redesigned app.",
-      "The app presented Homes, Experiences and Services together, with an Explore tab, a Trips itinerary and updated messaging.",
-      "Airbnb described Services as add-ons for a stay at different prices and Experiences as activities hosted by locals selected for perspective and expertise."
-    ],
-    "analysis": [
-      "The product architecture is the marketing move. A guest who comes to Airbnb for a home can now encounter a chef, a photographer or a local experience during the same planning journey. Discovery is no longer confined to accommodation search.",
-      "I read this as an attempt to extend a familiar relationship. Airbnb already appears at an important point in trip planning. If the app can help fill the hours around a stay, the brand can earn more moments of usefulness from the same traveler. That is a strategic inference, not a revenue claim.",
-      "The itinerary is an underrated part of the release. Bringing bookings into one Trips view can make multiple purchases feel like one coherent journey. It also raises the bar: the traveler will judge the whole experience together, even when different hosts or providers deliver each part.",
-      "This is where the brand promise becomes harder. Airbnb can curate a home listing, a local activity and a service, but those experiences have different standards and failure modes. The convenience of one app only becomes a brand advantage if the quality feels consistent when the traveler arrives."
-    ],
-    "weakness": "A broader marketplace can blur the reason people trust the original product. A disappointing service may change how someone feels about Airbnb as a whole. The release shows the product design, but gives no evidence that guests want to combine these purchases or that quality is consistent across categories.",
-    "test": "Offer a relevant Service or Experience at three points in the stay journey: before booking, after booking and near arrival. Compare incremental bookings, satisfaction and support issues by placement. The winning moment should add value to the trip without distracting from the home decision.",
     "limitation": "Airbnb's product release establishes what was launched and how it was presented. The case study does not have internal adoption, attachment rate or satisfaction data; the growth logic is my interpretation.",
     "sources": [
-      {"label": "Airbnb 2025 Summer Release", "url": "https://news.airbnb.com/product-releases/airbnb-2025-summer-release"},
-      {"label": "Airbnb media assets", "url": "https://news.airbnb.com/media-assets/"}
+      {
+        "label": "Airbnb 2025 Summer Release",
+        "url": "https://news.airbnb.com/product-releases/airbnb-2025-summer-release"
+      },
+      {
+        "label": "Airbnb media assets",
+        "url": "https://news.airbnb.com/media-assets/"
+      }
+    ],
+    "story": [
+      {
+        "type": "heading",
+        "text": "Three tabs, one larger ambition"
+      },
+      {
+        "type": "paragraph",
+        "text": "On May 13, 2025, Airbnb introduced Services and a new version of Experiences alongside a redesigned app. Homes, Experiences and Services now sat together, with an Explore tab, a Trips itinerary and updated messaging. Services covered add-ons at different prices; Experiences focused on activities hosted by selected locals."
+      },
+      {
+        "type": "paragraph",
+        "text": "The navigation is the strategy in miniature. A guest who comes for a place to stay can now encounter a chef, photographer or local activity during the same planning journey. Airbnb is asking to be considered for more of the trip, not only the booking."
+      },
+      {
+        "type": "heading",
+        "text": "Convenience raises the stakes"
+      },
+      {
+        "type": "paragraph",
+        "text": "I read the Trips view as an attempt to make separate purchases feel like one coherent journey. That could be genuinely useful: fewer loose confirmations, less switching between apps, a fuller picture of the days ahead. It also means a weak service may affect how a traveler judges the entire Airbnb experience."
+      },
+      {
+        "type": "aside",
+        "label": "The question under the launch",
+        "text": "Can trust earned in homes carry across activities and services when different people deliver each one?"
+      },
+      {
+        "type": "paragraph",
+        "text": "The product release does not tell us whether guests want to combine these categories or whether quality feels consistent. I would place a relevant Service or Experience at three different moments—before booking, after booking and near arrival—and compare incremental bookings, satisfaction and support issues. The best moment is the one that helps the trip without getting in the way of choosing a home."
+      }
     ]
   }
 ]

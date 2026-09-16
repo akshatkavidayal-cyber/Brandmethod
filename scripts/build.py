@@ -37,7 +37,7 @@ def render_home(studies, site):
     brand_links = "".join(f'<a href="studies/{e(study["slug"])}.html">{e(study["brand"])}</a>' for study in studies)
     body = f'''<section class="hero"><div class="hero-content"><p class="eyebrow light">AKSHAT KAVIDAYAL <span class="separator">/</span> BRAND & MARKETING</p><h1>Wait. Why did<br><em>they do that?</em></h1><p class="hero-intro">{e(site['intro'])}</p><a class="hero-link" href="#studies">Explore my case studies <span aria-hidden="true">↗</span></a></div><div class="hero-visual" role="img" aria-label="Abstract editorial question mark in mint and melon against an aubergine background"><div class="hero-image"></div><span class="visual-caption">CAMPAIGNS / PRODUCTS / POSITIONING</span></div></section>
     <div class="brand-strip" aria-label="Brands in the archive"><span>IN THE ARCHIVE</span><div>{brand_links}</div></div>
-    <section class="intro-strip" aria-label="Editorial focus"><span>01 &nbsp; Observe the move</span><span>02 &nbsp; Question the strategy</span><span>03 &nbsp; Propose a test</span></section>
+    <section class="intro-strip" aria-label="Editorial focus"><span>Close reads of brands, products and the things that don't quite add up.</span></section>
     <section class="studies-section" id="studies"><div class="section-heading"><div><p class="eyebrow">THE ARCHIVE</p><h2>Recent dissections<span class="period">.</span></h2></div><p>Campaigns, products and launches through a practical marketing lens.</p></div><div class="filter-row" role="group" aria-label="Filter case studies"><button class="filter active" type="button" data-filter="all" aria-pressed="true">All studies <span>{len(studies):02d}</span></button><button class="filter" type="button" data-filter="campaign" aria-pressed="false">Campaigns</button><button class="filter" type="button" data-filter="product" aria-pressed="false">Products</button></div><div class="study-grid">{cards}</div><p class="filter-empty" hidden>No studies in this category yet.</p></section>
     <section class="method-teaser"><p class="eyebrow light">A NOTE FROM AKSHAT</p><h2>It caught my eye.<br><em>Here’s why.</em></h2><p>Some brand ideas I love. Some frustrate me. Every one here made me stop, ask a question, and form an opinion.</p><a href="about.html">More about me <span aria-hidden="true">↗</span></a></section>'''
     return shell("Case studies", site["description"], body)
@@ -47,13 +47,29 @@ def paragraphs(items):
     return "".join(f"<p>{e(item)}</p>" for item in items)
 
 
+def story_blocks(blocks):
+    rendered = []
+    for block in blocks:
+        kind = block["type"]
+        if kind == "heading":
+            rendered.append(f'<h2 class="story-heading">{e(block["text"])}</h2>')
+        elif kind == "paragraph":
+            rendered.append(f'<p>{e(block["text"])}</p>')
+        elif kind == "list":
+            items = "".join(f'<li>{e(item)}</li>' for item in block["items"])
+            rendered.append(f'<ul class="story-list">{items}</ul>')
+        elif kind == "aside":
+            rendered.append(f'<aside class="story-aside"><span>{e(block["label"])}</span><p>{e(block["text"])}</p></aside>')
+        else:
+            raise ValueError(f"Unknown story block: {kind}")
+    return "".join(rendered)
+
+
 def render_study(study):
-    facts = "".join(f"<li>{e(item)}</li>" for item in study["facts"])
     sources = "".join(f'<li><a href="{e(item["url"])}" target="_blank" rel="noopener noreferrer">{e(item["label"])} <span aria-hidden="true">↗</span></a></li>' for item in study["sources"])
     origin = e(study.get("origin", "Independent analysis"))
-    opening = f'<p class="article-opening">{e(study["opening"])}</p>' if study.get("opening") else ""
     rail_mark = f'<img class="article-logo" src="../{e(study["logo"])}" alt="{e(study["brand"])} logo" loading="lazy">' if study.get("logo") else f'<div class="rail-number">{e(study["brand"][0])}<span>.</span></div>'
-    body = f'''<article class="article"><div class="article-topline"><a href="../index.html" class="back-link">← All studies</a><span>FIELD NOTE / {e(study['brand']).upper()}</span></div><header class="article-header"><p class="eyebrow">{e(study['industry'])} <span aria-hidden="true">/</span> {e(study['lens'])}</p><h1>{e(study['title'])}</h1><p class="article-dek">{e(study['dek'])}</p><div class="article-meta"><span>{e(study['date'])}</span><span>{origin}</span></div></header><div class="article-layout"><aside class="article-rail">{rail_mark}<p>BRAND<br>{e(study['brand']).upper()}</p><p>ANALYSIS<br>{e(study['lens']).upper()}</p></aside><div class="article-content">{opening}<section class="thesis"><p class="eyebrow">THE TAKE</p><h2>{e(study['thesis'])}</h2></section><section><p class="section-number">01 / OBSERVED</p><h2>What happened</h2><ul class="fact-list">{facts}</ul></section><section><p class="section-number">02 / INTERPRETED</p><h2>Why it matters</h2>{paragraphs(study['analysis'])}</section><section><p class="section-number">03 / CHALLENGED</p><h2>Where the idea could fall short</h2><p>{e(study['weakness'])}</p></section><section class="test-block"><p class="section-number">04 / TEST NEXT</p><h2>One experiment I would run</h2><p>{e(study['test'])}</p></section><section class="source-block"><p class="section-number">SOURCE NOTES</p><h2>Evidence & limitations</h2><p>{e(study['limitation'])}</p><ul>{sources}</ul></section></div></div><div class="article-end"><a href="../index.html">← Back to all studies</a></div></article>'''
+    body = f'''<article class="article"><div class="article-topline"><a href="../index.html" class="back-link">← All studies</a><span>FIELD NOTE / {e(study['brand']).upper()}</span></div><header class="article-header"><p class="eyebrow">{e(study['industry'])} <span aria-hidden="true">/</span> {e(study['lens'])}</p><h1>{e(study['title'])}</h1><p class="article-dek">{e(study['dek'])}</p><div class="article-meta"><span>{e(study['date'])}</span><span>{origin}</span></div></header><div class="article-layout"><aside class="article-rail">{rail_mark}<p>BRAND<br>{e(study['brand']).upper()}</p><p>ANALYSIS<br>{e(study['lens']).upper()}</p></aside><div class="article-content"><p class="article-opening">{e(study['opening'])}</p><div class="story-body">{story_blocks(study['story'])}</div><section class="source-block"><p class="section-number">SOURCE NOTES</p><h2>What the sources can and cannot tell us</h2><p>{e(study['limitation'])}</p><ul>{sources}</ul></section></div></div><div class="article-end"><a href="../index.html">← Back to all studies</a></div></article>'''
     return shell(study["title"], study["dek"], body, depth=1)
 
 
