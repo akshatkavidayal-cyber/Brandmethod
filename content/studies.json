@@ -75,5 +75,95 @@
     "sources": [
       {"label": "Nike Air Max 95000 announcement", "url": "https://about.nike.com/en/newsroom/releases/nike-air-max-95000-official-images-release-info"}
     ]
+  },
+  {
+    "slug": "lego-botanicals-flower-budget",
+    "brand": "LEGO",
+    "logo": "logo-lego.svg",
+    "industry": "Toys & gifting",
+    "lens": "Product & campaign",
+    "date": "2026-09-16",
+    "title": "LEGO Botanicals found its way into the flower budget",
+    "dek": "Le Florist made a buildable product feel appropriate for Valentine's Day, and gave the gift an activity to go with it.",
+    "thesis": "The clever move was to enter an existing gifting ritual with a product that changes what happens after the gift is opened.",
+    "opening": "I keep coming back to the flower truck. A florist is a familiar place to buy affection on Valentine's Day. LEGO borrowed that setting, filled it with brick-built flowers, and let visitors make a stem of their own. Suddenly a box of pieces had a perfectly ordinary reason to appear in a Valentine's gift conversation.",
+    "facts": [
+      "In January 2025, LEGO announced a Le Florist Flower Truck tour with free workshops to make personalized LEGO Botanicals stems. The planned stops included New York, London, Toronto, Paris, Hamburg and Milan.",
+      "LEGO also offered an eight-minute online floral workshop with Jeff Leatham and Valentine-themed Make & Take sessions in selected stores.",
+      "The Botanicals collection began in 2021. The January 2025 lineup included the Pretty Pink Flower Bouquet, Mini Orchid and Lucky Bamboo, all marked for ages 18 and up."
+    ],
+    "analysis": [
+      "The product choice matters as much as the campaign. Flowers already have a shopping occasion, a recipient and an emotional code. LEGO did not need to invent demand for a new holiday. It needed to make its version of flowers feel like a credible answer to that occasion.",
+      "The truck supplied the missing context. On a shelf, a LEGO bouquet could read as a toy. In a florist-like space, with arrangements and a hands-on workshop, it reads as a gift and an experience. That shift is my interpretation of the staging, not a measured effect reported by LEGO.",
+      "There is another useful detail: the gift can be built together. A conventional bouquet reaches its finished state before the recipient sees it. A Botanicals set can turn the exchange into shared time and then stay in the room as an object. That gives the buyer two reasons to choose it: the moment and the keepsake.",
+      "I also like how the campaign could travel across budgets. A free workshop is an entry point for someone who is merely curious; different sets offer different levels of commitment. The campaign makes the category legible before asking for a purchase."
+    ],
+    "weakness": "The same assembly that creates the experience can also create friction. For someone buying a last-minute gift, a kit that needs time and attention may lose to ready-made flowers. The public campaign material does not show how many visitors later bought a set or built it with someone else.",
+    "test": "At a Valentine gifting display, compare three presentations: finished bouquet only, build-together invitation, and a live mini-build. Track gift consideration, purchase and the buyer's intended recipient. I would especially look for whether the activity framing attracts shoppers who would not normally enter a LEGO aisle.",
+    "limitation": "LEGO's release establishes the activations and product lineup. The argument about entering the flower budget and changing the gifting ritual is my analysis; the source does not provide incremental sales or conversion data for Le Florist.",
+    "sources": [
+      {"label": "LEGO Botanicals Valentine's Day announcement", "url": "https://www.lego.com/en-us/aboutus/news/2025/january/lego-botanicals-valentines-day"},
+      {"label": "LEGO official logo assets", "url": "https://www.lego.com/en-us/aboutus/newsroom/lego-brand-logos-portfolio-assets"}
+    ]
+  },
+  {
+    "slug": "duolingo-dead-duo",
+    "brand": "Duolingo",
+    "logo": "logo-duolingo.svg",
+    "industry": "Education apps",
+    "lens": "Campaign & growth",
+    "date": "2026-09-16",
+    "title": "Dead Duo worked because the mascot could carry a plot",
+    "dek": "A company-reported 1.7 billion organic impressions is striking. The more interesting question is how a character became a repeatable growth asset.",
+    "thesis": "Duolingo made its mascot behave like a character in an ongoing story, giving people a reason to return to the brand between lessons.",
+    "opening": "Most mascots are useful until the logo is recognized. Duo had a different job in 2025: disappear, become the subject of a whodunit, and give the internet something to solve. I find that fascinating because a language-learning app briefly behaved like an entertainment property.",
+    "facts": [
+      "In its Q1 2025 shareholder letter, Duolingo described Dead Duo as a social-led whodunit campaign and reported 1.7 billion organic impressions.",
+      "The company said the campaign drove a meaningful lift in new and returning users, but the letter did not publish a campaign-specific user count.",
+      "The same letter reported 46.6 million daily active users for Q1 2025, up 49% year over year, while also describing product experiments aimed at retention and engagement."
+    ],
+    "analysis": [
+      "A recognizable character makes participation unusually easy. You do not have to explain who the owl is before inviting people into the joke. The plot gives fans something to react to, reinterpret and pass along, which is richer than asking them to share an advertisement.",
+      "The campaign also creates a bridge back to the app. Duolingo says it saw a lift in new and resurrected users. That matters more than impressions alone: attention had at least some route to a product behavior. The public number is still a company statement, and the size or durability of that lift is unknown.",
+      "I would be careful about attributing the entire quarter's user growth to Dead Duo. The letter itself credits continuing product tests and improvements. That distinction is the lesson for marketers: a huge story can fill the top of the funnel, while the product has to give newcomers a reason to stay.",
+      "The mascot is doing two jobs at once. It makes Duolingo recognizable in culture and makes the app feel playful when a learner returns. The strongest version of this strategy is a character whose behavior outside the product reinforces the feeling inside it."
+    ],
+    "weakness": "A mascot can become more famous than the service it represents. If people follow the plot but cannot connect it to learning, the campaign can become expensive attention even when media spend is low. Organic impressions also say little about lesson completion or retained learners.",
+    "test": "Create a matched comparison of people exposed to the story who open the app and similar returning users who were not exposed. Track first lesson completed, seven-day learning streak and paid conversion. That would show whether the narrative's attention becomes a useful learning habit.",
+    "limitation": "The 1.7 billion impressions and user lift are Duolingo's own reported figures. Public materials here do not isolate the campaign's incremental effect, give the lift's size, or establish how long it lasted.",
+    "sources": [
+      {"label": "Duolingo Q1 2025 shareholder letter", "url": "https://duolingo.gcs-web.com/static-files/01420520-3377-4985-887b-55ed3c1e4fc5"},
+      {"label": "Duolingo official logo guidance", "url": "https://design.duolingo.com/identity/logos"}
+    ]
+  },
+  {
+    "slug": "airbnb-beyond-the-stay",
+    "brand": "Airbnb",
+    "logo": "logo-airbnb.svg",
+    "industry": "Travel",
+    "lens": "Product & positioning",
+    "date": "2026-09-16",
+    "title": "Airbnb wants a place in more of the trip",
+    "dek": "Services, Experiences and a redesigned app widen the brand's role from booking a place to planning the days around it.",
+    "thesis": "Airbnb is trying to turn the trust earned in stays into a reason to book the rest of a trip in the same place.",
+    "opening": "Think about the tabs in a travel app. They quietly tell you what the company thinks it is for. In Airbnb's 2025 release, Homes acquired two peers: Experiences and Services. That small piece of navigation says more about its ambition than a grand campaign line could.",
+    "facts": [
+      "On May 13, 2025, Airbnb introduced Services and a new version of Experiences alongside a redesigned app.",
+      "The app presented Homes, Experiences and Services together, with an Explore tab, a Trips itinerary and updated messaging.",
+      "Airbnb described Services as add-ons for a stay at different prices and Experiences as activities hosted by locals selected for perspective and expertise."
+    ],
+    "analysis": [
+      "The product architecture is the marketing move. A guest who comes to Airbnb for a home can now encounter a chef, a photographer or a local experience during the same planning journey. Discovery is no longer confined to accommodation search.",
+      "I read this as an attempt to extend a familiar relationship. Airbnb already appears at an important point in trip planning. If the app can help fill the hours around a stay, the brand can earn more moments of usefulness from the same traveler. That is a strategic inference, not a revenue claim.",
+      "The itinerary is an underrated part of the release. Bringing bookings into one Trips view can make multiple purchases feel like one coherent journey. It also raises the bar: the traveler will judge the whole experience together, even when different hosts or providers deliver each part.",
+      "This is where the brand promise becomes harder. Airbnb can curate a home listing, a local activity and a service, but those experiences have different standards and failure modes. The convenience of one app only becomes a brand advantage if the quality feels consistent when the traveler arrives."
+    ],
+    "weakness": "A broader marketplace can blur the reason people trust the original product. A disappointing service may change how someone feels about Airbnb as a whole. The release shows the product design, but gives no evidence that guests want to combine these purchases or that quality is consistent across categories.",
+    "test": "Offer a relevant Service or Experience at three points in the stay journey: before booking, after booking and near arrival. Compare incremental bookings, satisfaction and support issues by placement. The winning moment should add value to the trip without distracting from the home decision.",
+    "limitation": "Airbnb's product release establishes what was launched and how it was presented. The case study does not have internal adoption, attachment rate or satisfaction data; the growth logic is my interpretation.",
+    "sources": [
+      {"label": "Airbnb 2025 Summer Release", "url": "https://news.airbnb.com/product-releases/airbnb-2025-summer-release"},
+      {"label": "Airbnb media assets", "url": "https://news.airbnb.com/media-assets/"}
+    ]
   }
 ]
