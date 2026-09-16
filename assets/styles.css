@@ -86,3 +86,32 @@ body{background:var(--cream);background-image:repeating-linear-gradient(0deg,rgb
 .study-card--duolingo .cover-logo,.study-card--airbnb .cover-logo{width:110px;height:110px}
 .article-logo{display:block;width:min(170px,100%);height:170px;object-fit:contain;object-position:left center}
 .article-opening{font-family:'Instrument Serif',Georgia,serif;font-size:clamp(28px,2.5vw,40px)!important;line-height:1.35!important;color:var(--ink)!important;letter-spacing:-.015em;margin-bottom:45px}
+
+/* About: a personal editorial note, not a career profile. */
+.about-opening{min-height:580px;display:grid;grid-template-columns:58% 42%;background:#e8dfc8;border-bottom:1px solid var(--ink)}
+.about-opening-copy{padding:clamp(60px,7vw,115px) 5vw 80px clamp(24px,9vw,145px);display:flex;flex-direction:column;align-items:flex-start;justify-content:center}
+.about-opening h1{font-family:'DM Sans',Arial,sans-serif;font-size:clamp(68px,7.5vw,125px);line-height:.9;letter-spacing:-.075em;margin:40px 0 35px}
+.about-opening h1 em{font-family:'Instrument Serif',Georgia,serif;font-size:1.06em;color:#bd392f;white-space:nowrap}
+.about-opening-copy>p:last-child{font-size:clamp(20px,1.9vw,28px);line-height:1.38;max-width:580px;margin:0}
+.about-scraps{position:relative;min-height:580px;border-left:1px solid var(--ink);background:#285448;overflow:hidden}
+.about-scraps:before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(35deg,transparent 0,transparent 77px,rgba(255,255,255,.07) 78px,rgba(255,255,255,.07) 80px)}
+.about-scrap{position:absolute;display:block;padding:24px 30px;box-shadow:8px 10px 0 rgba(24,31,28,.35);border:1px solid var(--ink);font-size:clamp(28px,3vw,48px);font-weight:700;line-height:1.05;letter-spacing:-.07em}
+.about-scrap--love{top:12%;left:9%;background:#f1ce4c;transform:rotate(-9deg)}
+.about-scrap--why{top:39%;right:7%;background:#f5eee0;transform:rotate(8deg);font-family:'Instrument Serif',Georgia,serif;font-style:italic;font-weight:400;font-size:clamp(39px,4.1vw,67px)}
+.about-scrap--unsaid{bottom:11%;left:10%;background:#e94b3d;color:#fff9e9;transform:rotate(-5deg)}
+.about-scrap-caption{position:absolute;bottom:20px;right:22px;color:#f6eed9;font-size:10px;font-weight:700;letter-spacing:.16em}
+.about-intro{padding:clamp(75px,9vw,135px) clamp(24px,10vw,160px);display:grid;grid-template-columns:26% 1fr;gap:48px;border-bottom:1px solid var(--ink)}
+.about-kicker{font-size:12px;font-weight:700;letter-spacing:.18em;color:#b8342c;padding-top:10px}
+.about-intro>div{max-width:820px}
+.about-intro>div p{font-size:clamp(18px,1.5vw,23px);line-height:1.65;color:#454238;margin:0 0 25px}
+.about-intro>div .about-lead{font-family:'Instrument Serif',Georgia,serif;font-size:clamp(37px,4vw,60px);line-height:1.18;letter-spacing:-.025em;color:var(--ink);margin-bottom:38px}
+.about-belief{background:#f0d7ce;padding:clamp(75px,8vw,125px) clamp(24px,14vw,225px);border-bottom:1px solid var(--ink)}
+.about-belief h2{font-family:'Instrument Serif',Georgia,serif;font-size:clamp(49px,5.7vw,86px);font-weight:400;letter-spacing:-.035em;max-width:870px;margin:20px 0 40px}
+.about-belief>p:not(.eyebrow){font-size:clamp(18px,1.55vw,23px);line-height:1.65;max-width:770px;color:#443d38}
+.about-signoff{padding:80px clamp(24px,10vw,160px) 95px;display:flex;justify-content:space-between;align-items:end;gap:35px}
+.about-signature{font-family:'Instrument Serif',Georgia,serif;font-size:clamp(39px,4.7vw,72px);line-height:1.1;max-width:600px;margin:0}
+.about-signoff>div{display:flex;flex-direction:column;gap:14px;align-items:flex-start;flex-shrink:0}
+.about-signoff a{font-size:14px;font-weight:700;text-decoration:none;border-bottom:1px solid var(--ink);padding:7px 0;display:flex;gap:45px;justify-content:space-between;min-width:230px}
+.about-signoff a:hover{color:#b8342c;border-color:#b8342c}
+@media(max-width:900px){.about-opening{grid-template-columns:1fr}.about-opening-copy{padding:75px 45px}.about-scraps{min-height:380px;border-left:0;border-top:1px solid var(--ink)}.about-scrap--love{top:12%;left:13%}.about-scrap--why{top:28%;right:12%}.about-scrap--unsaid{bottom:8%;left:18%}.about-intro{grid-template-columns:1fr;gap:8px}.about-signoff{align-items:start;flex-direction:column}}
+@media(max-width:620px){.about-opening-copy{padding:65px 22px 70px}.about-opening h1{font-size:clamp(59px,13vw,85px);margin:28px 0}.about-opening h1 em{white-space:normal}.about-opening-copy>p:last-child{font-size:20px}.about-scraps{min-height:315px}.about-scrap{padding:16px 18px;font-size:29px}.about-scrap--why{font-size:41px;top:26%;right:5%}.about-scrap--unsaid{bottom:10%;left:6%}.about-intro{padding:70px 22px}.about-intro>div p{font-size:18px}.about-intro>div .about-lead{font-size:42px}.about-belief{padding:70px 22px}.about-belief h2{font-size:55px}.about-belief>p:not(.eyebrow){font-size:18px}.about-signoff{padding:70px 22px 85px}.about-signature{font-size:48px}}
