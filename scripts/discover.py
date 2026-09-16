@@ -81,7 +81,7 @@ def main():
             lines += [f"- **{item['title']}** — [{item['source']}]({item['url']}) · relevance {item['score']}"]
     else:
         lines += ["No suitable candidates found in the configured feeds."]
-    lines += ["", "## Review checklist", "", "1. Find the original brand announcement, product page or ad.", "2. Record the date, market, SKU or campaign details, and source links.", "3. Write an original thesis; separate facts from interpretation.", "4. State the uncertainty and one measurable test.", "5. Add the reviewed study to `content/studies.json` and merge to publish."]
+    lines += ["", "## Review checklist", "", "1. Find the original brand announcement, product page or ad.", "2. Record the date, market, SKU or campaign details, and source links.", "3. Write an original thesis; separate facts from interpretation.", "4. State the uncertainty and one measurable test.", "5. Draft the case study, a LinkedIn post with its exact future URL, and an Instagram adaptation together. Hold publication until the whole release is approved and the social publishing route is ready."]
     if errors:
         lines += ["", "Feed errors: " + ", ".join(errors)]
     output = ROOT / args.output
