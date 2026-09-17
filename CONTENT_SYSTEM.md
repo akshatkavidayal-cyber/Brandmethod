@@ -4,7 +4,7 @@
 
 Akshat Kavidayal — Brand Marketing & Business Development, across FMCG, consumer and technology. Global marketing, partnerships and strategy are the connective skills. The primary readers are brand/consumer marketing recruiters and hiring managers; the second audience is B2B technology, professional audio/AV and partnership teams. The site should also reward curious marketers who came for an opinion, not a résumé.
 
-The homepage makes the role legible quickly. `/about/` stays a human, opinion-led introduction. `/resume/` is a searchable overview and must be updated from a verified public CV before specific titles, dates or results are added. `/work/` is professional experience; `/insights/` and `/studies/` are independent analysis. Never imply an independent brand study was commissioned work.
+The homepage makes the role legible quickly. `/about/` stays a human, opinion-led introduction. `/resume/` is a searchable overview based on Akshat's verified CV, with a downloadable public PDF. Keep it current when the CV changes and review additions for confidentiality. `/work/` is professional experience; `/insights/` and `/studies/` are independent analysis. Never imply an independent brand study was commissioned work.
 
 ## Four editorial pillars
 
@@ -41,7 +41,7 @@ One page, one reader question. Use a distinct descriptive title and meta descrip
 
 ## Release and measurement
 
-The publishing workflow is manually dispatched, preserving a review point. Google Search Console URL-prefix ownership was verified on 2026-09-17 for `https://akshatkavidayal-cyber.github.io/Brandmethod/` and its sitemap was submitted. Google initially displayed “Couldn't fetch” for that sitemap even though its public XML rendered with 20 URLs; recheck the Sitemaps report after processing before treating discovery as healthy. Manual indexing was requested for home, brand marketing and business development. Search Console measures organic queries, clicks, impressions and landing pages once data is available. No visitor analytics beacon is installed without a configured account/measurement ID. If adding free privacy-conscious analytics later, document vendor, data captured, retention and consent implications; track résumé PDF downloads (once one exists), case visits, outbound LinkedIn and contact actions only after it is configured. This HTML résumé has no fake download button.
+The publishing workflow is manually dispatched, preserving a review point. Google Search Console URL-prefix ownership was verified on 2026-09-17 for `https://akshatkavidayal-cyber.github.io/Brandmethod/` and its sitemap was submitted. Google initially displayed “Couldn't fetch” for that sitemap even though its public XML rendered with 20 URLs; recheck the Sitemaps report after processing before treating discovery as healthy. Manual indexing was requested for home, brand marketing and business development. Search Console measures organic queries, clicks, impressions and landing pages once data is available. No visitor analytics beacon is installed without a configured account/measurement ID. If adding free privacy-conscious analytics later, document vendor, data captured, retention and consent implications; track résumé PDF downloads, case visits, outbound LinkedIn and contact actions only after it is configured.
 
 ## For future Work sessions
 

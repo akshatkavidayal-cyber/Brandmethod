@@ -4,7 +4,7 @@ Akshat Kavidayal's portfolio lives at [akshatkavidayal-cyber.github.io/Brandmeth
 
 ## Site map and continuation
 
-`scripts/professional.py` holds the public professional pages: brand marketing, business development, work and three experience summaries, research, searchable résumé, insights and contact. `scripts/build.py` renders them alongside the original eight essays and generates metadata, structured data, sitemap and a 404 page. The verified CV, contact email, detailed role titles/dates and analytics account are not available yet; the site does not invent them. Read [CONTENT_SYSTEM.md](CONTENT_SYSTEM.md) for the editorial/release workflow and [SEO_STRATEGY.md](SEO_STRATEGY.md) for search intent, 30 article opportunities and Search Console setup.
+`scripts/professional.py` holds the public professional pages: brand marketing, business development, work and three experience summaries, research, searchable résumé, insights and contact. `scripts/build.py` renders them alongside the original eight essays and generates metadata, structured data, sitemap and a 404 page. The résumé uses verified facts from Akshat's supplied CV. `scripts/build_cv.py` creates a public, employer-neutral PDF in `assets/` without the private phone number or job-specific wording. An analytics account has not been configured. Read [CONTENT_SYSTEM.md](CONTENT_SYSTEM.md) for the editorial/release workflow and [SEO_STRATEGY.md](SEO_STRATEGY.md) for search intent, 30 article opportunities and Search Console setup.
 
 ## Edit an article
 
