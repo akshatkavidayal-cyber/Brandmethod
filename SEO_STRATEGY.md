@@ -57,7 +57,7 @@ Start with 1, 3, 9 and 10 to cover both professional tracks. Each topic needs a 
 
 Public LinkedIn search shows Akshat's profile with a broad “Brand builder. Marketer. Multi-industry, multi-category” opening and posts that already demonstrate an opinionated voice, including Danone and shelf execution. We could not verify the complete current headline, experience entries or Featured configuration. Suggested headline, to adapt to verified current role and location: **Brand Marketing & Business Development | FMCG, Consumer & B2B Technology | Global Marketing, Partnerships & Strategy**. Keep the About opening personal, then add two concrete sentences on Danone / Activia, professional AV and the emlyon MSc. In Experience, use verified role titles/dates plus 2–3 public scope statements, without invented impact. Put the live site, `/work/`, thesis summary and one sharp article in Featured; add relevant verified skills. Ensure the website link is visible and reciprocated on the site. Do not claim profile updates were made.
 
-The public repository README links to the site; update its first paragraph with the two professional tracks and the case/work distinction. GitHub profile bio/website setting requires authenticated profile editing. Keep the technical repo honest about what the generator and workflows do.
+The public repository README links to the site and distinguishes professional work from editorial analysis. On 2026-09-17, the GitHub profile display name, bio, website and LinkedIn link were aligned with the site; the repository description and website URL were updated as well. Keep the technical repo honest about what the generator and workflows do.
 
 ## Earned authority, not link schemes
 
