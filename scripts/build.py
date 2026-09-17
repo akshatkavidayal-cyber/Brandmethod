@@ -40,8 +40,8 @@ def shell(title, description, body, depth=0, path="", kind="WebPage", extra_sche
 
 
 def card(study, index):
-    category = study["lens"].split(" & ")[0]
-    label = "FROM MY LINKEDIN NOTES" if study.get("origin") else f"{index:02d} / FIELD NOTE"
+    category = study.get("category", study["lens"].split(" & ")[0])
+    label = "FROM MY LINKEDIN NOTES" if study.get("origin", "").startswith("Expanded from Akshat's LinkedIn") else f"{index:02d} / FIELD NOTE"
     mark = f'<img class="cover-logo" src="{e(study["logo"])}" alt="" loading="lazy">' if study.get("logo") else f'<span class="cover-mark">{e(study["brand"])}</span>'
     return f'''<a class="study-card study-card--{e(study['slug'].split('-')[0])}" href="studies/{e(study['slug'])}.html" data-category="{e(category.lower())}" data-industry="{e(study['industry'].lower())}"><div class="card-cover" aria-hidden="true">{mark}<span class="cover-number">{index:02d}</span></div><div class="card-top"><span class="card-index">{label}</span><span class="card-brand">{e(study['brand'])}</span></div><div class="card-body"><p class="eyebrow">{e(study['industry'])} <span aria-hidden="true">/</span> {e(study['lens'])}</p><h3>{e(study['title'])}</h3><p>{e(study['dek'])}</p></div><div class="card-bottom"><span>Read the analysis</span><span aria-hidden="true">↗</span></div></a>'''
 
