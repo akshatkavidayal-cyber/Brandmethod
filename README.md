@@ -1,6 +1,10 @@
 # Brand Method
 
-Akshat Kavidayal's independent, opinion-led marketing portfolio lives at [akshatkavidayal-cyber.github.io/Brandmethod](https://akshatkavidayal-cyber.github.io/Brandmethod/). GitHub Pages builds the site with `scripts/build.py` when the manual `Publish coordinated release` workflow is run.
+Akshat Kavidayal's portfolio lives at [akshatkavidayal-cyber.github.io/Brandmethod](https://akshatkavidayal-cyber.github.io/Brandmethod/). It connects brand marketing and FMCG consumer insight with business development, partnerships and professional AV. The [professional work](https://akshatkavidayal-cyber.github.io/Brandmethod/work/) is clearly separated from [independent editorial analysis](https://akshatkavidayal-cyber.github.io/Brandmethod/insights/). GitHub Pages builds the site with `scripts/build.py` when the manual `Publish coordinated release` workflow is run.
+
+## Site map and continuation
+
+`scripts/professional.py` holds the public professional pages: brand marketing, business development, work and three experience summaries, research, searchable résumé, insights and contact. `scripts/build.py` renders them alongside the original eight essays and generates metadata, structured data, sitemap and a 404 page. The verified CV, contact email, detailed role titles/dates and analytics account are not available yet; the site does not invent them. Read [CONTENT_SYSTEM.md](CONTENT_SYSTEM.md) for the editorial/release workflow and [SEO_STRATEGY.md](SEO_STRATEGY.md) for search intent, 30 article opportunities and Search Console setup.
 
 ## Edit an article
 
