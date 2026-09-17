@@ -105,7 +105,7 @@ def render_about(site, depth=0):
 
 def main():
     site = json.loads((ROOT / "site.json").read_text())
-    studies = json.loads((ROOT / "content/from-linkedin.json").read_text()) + json.loads((ROOT / "content/studies.json").read_text())
+    studies = sorted(json.loads((ROOT / "content/from-linkedin.json").read_text()) + json.loads((ROOT / "content/studies.json").read_text()), key=lambda study: study["date"], reverse=True)
     if OUT.exists():
         shutil.rmtree(OUT)
     OUT.mkdir(exist_ok=True)

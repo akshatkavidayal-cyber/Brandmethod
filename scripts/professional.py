@@ -89,7 +89,7 @@ def professional_pages(studies, site):
         'Opinion-led independent analysis of campaigns, products, FMCG, consumer culture and brand decisions by Akshat Kavidayal.',
         page('INSIGHTS / THE EDITORIAL ARCHIVE', 'The question behind the campaign.',
              'I write about the brands I love, the products that irritate me and the decisions no one seems to be saying out loud. These essays are independent analysis, not client work.',
-             section('THE ARCHIVE', 'Eight close reads', f'<ul class="insight-list">{cards}</ul>'),
+             section('THE ARCHIVE', f'{len(studies)} close reads', f'<ul class="insight-list">{cards}</ul>'),
              section('FOLLOW THE THINKING', 'Where the opinions come from', links(('brand-marketing/', 'Brand marketing'), ('business-development/', 'Business development'), ('research/influencer-selection-fmcg/', 'Research')))))
 
     add('contact', 'Contact Akshat Kavidayal',
