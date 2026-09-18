@@ -1,5 +1,62 @@
 [
   {
+    "slug": "samsung-dominos-pizza-box-fold8",
+    "brand": "Samsung",
+    "industry": "Consumer technology",
+    "lens": "Campaign & partnership",
+    "category": "campaign",
+    "date": "2026-09-18",
+    "title": "Samsung turned a pizza box into a lesson about folding phones",
+    "dek": "A familiar opening motion made an unfamiliar product format easier to notice. The contest made it easier to measure attention, though not necessarily desire.",
+    "opening": "The clever part of Samsung's Domino's collaboration is not the QR code. It is the motion before it: opening a pizza box. You already know how to do that. Samsung used that everyday gesture to introduce a phone category it says younger shoppers have not seriously considered.",
+    "limitation": "Samsung's German newsroom and promotion page establish the box design, distribution plan, dates and contest mechanics. They do not report how many boxes were actually opened, QR scans, qualified prospects, changes in foldable-phone consideration or sales attributable to the partnership. The learning effect argued here is my interpretation.",
+    "sources": [
+      {
+        "label": "Samsung Germany campaign announcement, 30 July 2026 (German)",
+        "url": "https://news.samsung.com/de/digital-first-samsung-entfaltet-kampagne-zur-galaxy-z-fold8-serie"
+      },
+      {
+        "label": "Samsung x Domino's Unfold to win promotion (German)",
+        "url": "https://www.samsung.com/de/explore/brand/unfoldtowin/"
+      }
+    ],
+    "story": [
+      {
+        "type": "heading",
+        "text": "The product idea escaped the product ad"
+      },
+      {
+        "type": "paragraph",
+        "text": "Samsung's German campaign for the Galaxy Z Fold8 series used opening and unfolding as its creative principle. Its Instagram teasers showed objects such as pizza, chocolate and a puzzle before revealing the devices. In the Domino's extension, Samsung and Domino's Pizza Germany developed a branded pizza box with Jung von Matt. Samsung said around 200,000 boxes were planned for the 29 July to 12 August 2026 activation."
+      },
+      {
+        "type": "paragraph",
+        "text": "I like the jump from a phone screen to a dinner table. A conventional foldable-phone ad can tell you about display size and productivity. A pizza box gives you a physical opening gesture in a setting where nobody is shopping for electronics. The box is not a demonstration of the phone's hinge or screen. It is a metaphor you can do with your hands."
+      },
+      {
+        "type": "heading",
+        "text": "A memorable gesture, and a measurable one"
+      },
+      {
+        "type": "paragraph",
+        "text": "The box carried a QR code to a Samsung contest for eight Galaxy Z Fold8 phones. Eligible registrants were also offered a Domino's medium-pizza voucher, limited to the first 20,000 redemptions. The contest has ended. Those mechanics give the partners a way to record response, but they also complicate the interpretation: someone might scan for a free phone or pizza without becoming any more interested in a foldable."
+      },
+      {
+        "type": "aside",
+        "label": "The question behind the box",
+        "text": "Did opening it make the Fold8 more understandable, or did the prize simply make the QR code more tempting?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Samsung said the broader campaign especially targeted younger people who had given foldables little consideration. That makes the partnership more interesting than a novelty box. It reaches people outside a phone-buying moment, then asks them to connect an ordinary action to an unfamiliar product form. Whether that connection survives after the pizza is gone is the real brand question."
+      },
+      {
+        "type": "paragraph",
+        "text": "I would measure more than entries. Among people who saw the box, what did they remember without prompting? Could they explain why a folding screen might be useful to them? Did any of them explore the product after the contest? If the box only produced scans, it was a clever promotion. If it made the format easier to understand, it did a harder marketing job."
+      }
+    ]
+  },
+  {
     "slug": "escentric-molecules-sounds-like-a-brand",
     "brand": "Escentric Molecules",
     "industry": "Fragrance",
