@@ -97,4 +97,12 @@ def professional_pages(studies, site):
         page('CONTACT / AKSHAT KAVIDAYAL', 'Have a brand question or a role worth talking about?',
              'I welcome conversations about FMCG brand marketing, consumer insight, partnerships and professional AV.',
              section('REACH OUT', 'Start a conversation', f'<div class="inline-links"><a href="mailto:{escape(site["contact_email"])}">{escape(site["contact_email"])} ↗</a><a href="{escape(site["linkedin_url"])}" target="_blank" rel="noopener noreferrer">Connect on LinkedIn ↗</a></div><p>Prefer a résumé first? You can read it here or download the public CV.</p>' + links(('resume/', 'View résumé'), ('work/', 'View work')))))
+
+    add('privacy', 'Privacy & Analytics',
+        'How Brand Method uses optional Google Analytics to understand visits, article readership and traffic sources.',
+        page('PRIVACY / ANALYTICS', 'A small amount of data, for a better publication.',
+             'Brand Method uses optional analytics to understand which essays are useful and where readers discover them.',
+             section('WHAT IS MEASURED', 'Visits, reading and referrals', '<p>If you allow analytics, Google Analytics records page views, scrolling, outbound link clicks, broad traffic source information and technical details such as device and browser type. Campaign links may include labels such as LinkedIn, Instagram and the name of the article. Brand Method does not ask Google Analytics to collect your name, email address or the text you enter elsewhere.</p>'),
+             section('YOUR CHOICE', 'Analytics stays optional', '<p>The analytics tag loads only after you choose “Allow analytics.” Your choice is saved in this browser. Selecting “No thanks” leaves the tag unloaded. You can clear your saved choice below and choose again.</p><button class="privacy-choice" type="button" data-analytics-reset>Reset analytics choice</button>'),
+             section('THE SERVICE', 'Google Analytics', '<p>Google Analytics processes the measurements described above for this site. Read <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">how Google uses information from sites that use its services ↗</a>. Questions about this site can be sent to <a href="mailto:' + escape(site['contact_email']) + '">' + escape(site['contact_email']) + '</a>.</p>')))
     return result

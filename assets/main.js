@@ -16,3 +16,20 @@ document.querySelectorAll('[data-filter]').forEach(button=>{
     if(empty)empty.hidden=visible>0;
   });
 });
+
+const analyticsBanner=document.querySelector('[data-analytics-consent]');
+const analyticsChoice=localStorage.getItem('brand_method_analytics');
+if(analyticsBanner&&!analyticsChoice)analyticsBanner.hidden=false;
+document.querySelector('[data-analytics-allow]')?.addEventListener('click',()=>{
+  localStorage.setItem('brand_method_analytics','granted');
+  window.loadBrandMethodAnalytics?.();
+  analyticsBanner.hidden=true;
+});
+document.querySelector('[data-analytics-decline]')?.addEventListener('click',()=>{
+  localStorage.setItem('brand_method_analytics','denied');
+  analyticsBanner.hidden=true;
+});
+document.querySelector('[data-analytics-reset]')?.addEventListener('click',()=>{
+  localStorage.removeItem('brand_method_analytics');
+  if(analyticsBanner)analyticsBanner.hidden=false;
+});
