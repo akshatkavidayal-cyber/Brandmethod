@@ -1,5 +1,70 @@
 [
   {
+    "slug": "starbucks-peanuts-fall-merch",
+    "brand": "Starbucks",
+    "industry": "Coffee & retail",
+    "lens": "Merchandising & seasonal brand",
+    "category": "product",
+    "date": "2026-09-21",
+    "title": "Starbucks made fall something you can carry",
+    "dek": "The Peanuts collection turns a seasonal coffee ritual into cups, charms and clothing that keep the brand visible after the drink is gone.",
+    "opening": "I used to think the Pumpkin Spice Latte did most of Starbucks' autumn work. Then I looked at the Peanuts collection: cups, a tote, a charm, pins, a plush Snoopy in a green apron. The drink marks the season. The merchandise lets people carry the season around.",
+    "limitation": "Starbucks' own releases establish the launch date, products, prices, regions and its wider merchandise strategy. They do not report sell-through, incremental store visits, beverage attachment, Rewards sign-ups or repeat behaviour for this Peanuts collection. The earlier Bearista results describe a different product and cannot prove demand for this launch.",
+    "sources": [
+      {
+        "label": "Starbucks Peanuts fall collection, 15 September 2026",
+        "url": "https://about.starbucks.com/stories/2026/do-a-happy-dance-see-the-new-starbucks-peanuts-fall-collection-inspired-by-the-great-pumpkin-and-pumpkin-spice-latte/"
+      },
+      {
+        "label": "Starbucks on its merchandise strategy, 17 July 2026",
+        "url": "https://about.starbucks.com/press/2026/the-viral-bearista-sparked-a-new-era-for-starbucks-merch/"
+      }
+    ],
+    "story": [
+      {
+        "type": "heading",
+        "text": "Two rituals meet in the same pumpkin patch"
+      },
+      {
+        "type": "paragraph",
+        "text": "Starbucks launched the limited-edition collection on 15 September 2026 in participating coffeehouses across the United States, Canada, Latin America and the Caribbean, Europe, the Middle East, Africa and Asia Pacific. The ten-item coffeehouse range coincides with the 60th anniversary of It's the Great Pumpkin, Charlie Brown. That is more than a convenient licence. Linus waiting for the Great Pumpkin and Starbucks fans waiting for the Pumpkin Spice Latte are both stories about seasonal anticipation."
+      },
+      {
+        "type": "paragraph",
+        "text": "I think this is why the collaboration feels more coherent than putting a popular character on a cup and calling it culture. Snoopy brings nostalgia, but the Great Pumpkin gives that nostalgia the same calendar as Starbucks' strongest autumn ritual. Each property makes the other easier to understand in this moment."
+      },
+      {
+        "type": "heading",
+        "text": "The range builds more than one way in"
+      },
+      {
+        "type": "paragraph",
+        "text": "The U.S. coffeehouse assortment stretches from a $14.95 enamel pin set to a $39.95 glass cold cup, with mugs, tumblers, a bag charm, a mini tote and a plush in between. Starbucks Rewards members also get access to selected online exclusives, including apparel, while two Peanuts-inspired secret-menu drinks appear in the app. One creative idea is doing several commercial jobs: an impulse accessory, a collectible, a gift, a membership benefit and a reason to browse the drink menu."
+      },
+      {
+        "type": "aside",
+        "label": "The move I find most interesting",
+        "text": "A latte disappears in minutes. A Snoopy cup can put Starbucks on a desk, in a bag and in somebody else's photograph for months."
+      },
+      {
+        "type": "paragraph",
+        "text": "Starbucks has been unusually direct about this ambition. In July, its global chief brand officer described merchandise as a way to extend the experience beyond coffeehouses. The company said a previous Glass Bearista cold cup sold out in less than a day, and that a later Pink Bearista release mostly sold out by 7 a.m. across North America. Those are company-reported results for other products, but they explain why Starbucks is treating merchandise as a demand engine rather than a decorative sideline."
+      },
+      {
+        "type": "heading",
+        "text": "Scarcity can create the wrong kind of proof"
+      },
+      {
+        "type": "paragraph",
+        "text": "The collection is available while supplies last, and the featured glass cold cup carries a two-per-customer limit. Fast sell-outs can make a launch look culturally enormous while telling us very little about how much stock existed, who bought it or whether the relationship continued after checkout. Snoopy collectors may also be doing more work than Starbucks in the transaction."
+      },
+      {
+        "type": "paragraph",
+        "text": "I would follow buyers for ninety days. Did the collection bring them into a coffeehouse, add a beverage to the basket, move them into Rewards or change visit frequency? I would compare this collaboration with a similarly priced seasonal Starbucks range without a licensed character, then ask one simple unaided question: what brand do you remember when you see the object later? If only Snoopy survives, Starbucks rented attention. If both brands remain attached to the autumn ritual, it built something more durable."
+      }
+    ]
+  },
+  {
     "slug": "samsung-dominos-pizza-box-fold8",
     "brand": "Samsung",
     "industry": "Consumer technology",
