@@ -109,6 +109,12 @@ def render_about(site, depth=0):
 def main():
     site = json.loads((ROOT / "site.json").read_text())
     studies = sorted(json.loads((ROOT / "content/from-linkedin.json").read_text()) + json.loads((ROOT / "content/studies.json").read_text()), key=lambda study: study["date"], reverse=True)
+    for study in studies:
+        logo = study.get("logo")
+        if not logo:
+            raise ValueError(f"Missing required brand logo for {study['slug']}")
+        if not (ASSETS / logo).is_file():
+            raise FileNotFoundError(f"Brand logo asset not found for {study['slug']}: {logo}")
     if OUT.exists():
         shutil.rmtree(OUT)
     OUT.mkdir(exist_ok=True)

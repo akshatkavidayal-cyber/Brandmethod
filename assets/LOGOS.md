@@ -12,3 +12,8 @@ These marks identify the subjects of independent case studies. Brand Method is n
 | `logo-lego.svg` | LEGO brand mark used in the existing editorial layout |
 | `logo-duolingo.svg` | Duolingo brand mark used in the existing editorial layout |
 | `logo-airbnb.svg` | Airbnb brand mark used in the existing editorial layout |
+| `logo-coach-kate-spade.png` | [Tapestry official Coach and Kate Spade brand page](https://www.tapestry.com/our-brands/) |
+| `logo-starbucks.svg` | [Simple Icons](https://simpleicons.org/?q=starbucks) |
+| `logo-samsung.svg` | [Simple Icons](https://simpleicons.org/?q=samsung) |
+| `logo-escentric.svg` | [Escentric Molecules official website](https://www.escentric.com/) |
+| `logo-pepsico.svg` | [Wikimedia Commons, sourced to PepsiCo](https://commons.wikimedia.org/wiki/File:PepsiCo_(2025,_wordmark).svg) |

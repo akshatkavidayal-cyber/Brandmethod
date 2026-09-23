@@ -66,7 +66,8 @@
         "type": "paragraph",
         "text": "The best outcome is not simply more bags sold inside Gemini. It is a system where Google removes administrative friction while the brand still supplies enough meaning to be chosen deliberately. If the shopper remembers only that the AI found a suitable black bag, the interface won. If they remember why it had to be Coach, the brand did too."
       }
-    ]
+    ],
+    "logo": "logo-coach-kate-spade.png"
   },
   {
     "slug": "starbucks-peanuts-fall-merch",
@@ -131,7 +132,8 @@
         "type": "paragraph",
         "text": "I would follow buyers for ninety days. Did the collection bring them into a coffeehouse, add a beverage to the basket, move them into Rewards or change visit frequency? I would compare this collaboration with a similarly priced seasonal Starbucks range without a licensed character, then ask one simple unaided question: what brand do you remember when you see the object later? If only Snoopy survives, Starbucks rented attention. If both brands remain attached to the autumn ritual, it built something more durable."
       }
-    ]
+    ],
+    "logo": "logo-starbucks.svg"
   },
   {
     "slug": "samsung-dominos-pizza-box-fold8",
@@ -188,7 +190,8 @@
         "type": "paragraph",
         "text": "I would measure more than entries. Among people who saw the box, what did they remember without prompting? Could they explain why a folding screen might be useful to them? Did any of them explore the product after the contest? If the box only produced scans, it was a clever promotion. If it made the format easier to understand, it did a harder marketing job."
       }
-    ]
+    ],
+    "logo": "logo-samsung.svg"
   },
   {
     "slug": "escentric-molecules-sounds-like-a-brand",
@@ -250,7 +253,8 @@
         "type": "paragraph",
         "text": "Atmosphere alone can attract people who love a film but never try the fragrance. I would want to know what viewers expected the scent to be like, whether they recalled the brand, and whether they sought out a sample. The public material cannot answer those questions. My own response is narrower: the ad made me stop, visit the site and think about why. That is already more than I can say for most beautiful perfume films I forget a moment later."
       }
-    ]
+    ],
+    "logo": "logo-escentric.svg"
   },
   {
     "slug": "share-a-coke-2025",
@@ -746,6 +750,7 @@
         "type": "paragraph",
         "text": "PepsiCo may never stop being PepsiCo. But after watching its brands fight over the sign outside, I understand the house differently."
       }
-    ]
+    ],
+    "logo": "logo-pepsico.svg"
   }
 ]
