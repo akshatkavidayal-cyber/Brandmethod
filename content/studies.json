@@ -1,5 +1,74 @@
 [
   {
+    "slug": "coach-kate-spade-google-ai-checkout",
+    "brand": "Coach / Kate Spade",
+    "industry": "Fashion retail & technology",
+    "lens": "Commerce & distribution",
+    "category": "product",
+    "date": "2026-09-23",
+    "title": "Coach is letting the checkout leave the brand site",
+    "dek": "Buying inside Google AI Mode or Gemini removes a redirect. It also moves part of the brand experience onto somebody else's interface.",
+    "opening": "I do not think most marketers are ready for the product page to become less important. Tapestry has made Coach and Kate Spade products purchasable inside Google Search's AI Mode and the Gemini app in the United States. A shopper can discover a bag, tap Buy and complete a single-item purchase with Google Pay without visiting the brand's website.",
+    "limitation": "Tapestry's announcement establishes the live U.S. rollout, single-item checkout, Google Pay flow and explicit purchase approval. Google's materials explain how the underlying Universal Commerce Protocol is intended to work. Neither source reports Coach or Kate Spade conversion, order value, customer acquisition, returns, loyalty enrolment or repeat purchase from this implementation.",
+    "sources": [
+      {
+        "label": "Tapestry announcement, 16 September 2026",
+        "url": "https://www.tapestry.com/innovation/shoppers-can-now-buy-coach-and-kate-spade-products-in-the-gemini-app-and-google-search-including-ai-mode/"
+      },
+      {
+        "label": "Google introduces the Universal Commerce Protocol, 11 January 2026",
+        "url": "https://blog.google/products/ads-commerce/agentic-commerce-ai-tools-protocol-retailers-platforms/"
+      },
+      {
+        "label": "Google explains UCP's retail and payment model, 11 January 2026",
+        "url": "https://developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/"
+      }
+    ],
+    "story": [
+      {
+        "type": "heading",
+        "text": "The redirect was small. Its disappearance is not."
+      },
+      {
+        "type": "paragraph",
+        "text": "Tapestry says the new checkout is live in the United States and uses Google's Universal Commerce Protocol, an open standard for connecting shopping surfaces, retailers and payment providers. The shopper still has to approve each transaction. Google says participating retailers remain the merchant of record and keep their business logic, even when the buying journey happens on a Google surface."
+      },
+      {
+        "type": "paragraph",
+        "text": "The obvious benefit is fewer exits. Someone asking an AI assistant for a work bag can move from a recommendation to payment in the same conversation. There is no new tab, no second search and no abandoned basket caused by starting again. For a retailer, that is a shorter route from intent to revenue."
+      },
+      {
+        "type": "aside",
+        "label": "The strategic trade",
+        "text": "The brand removes checkout friction by giving up some of the space where it normally explains itself."
+      },
+      {
+        "type": "heading",
+        "text": "Product data starts doing the work of the store"
+      },
+      {
+        "type": "paragraph",
+        "text": "A Coach product page can control photography, styling, craftsmanship stories, recommendations and the sequence in which a shopper encounters them. Inside an AI answer, the deciding information may be a product title, image, price, availability and whatever attributes the assistant uses to compare options. That makes the quality and distinctiveness of structured product information a marketing question, not just a feed-management task."
+      },
+      {
+        "type": "paragraph",
+        "text": "This matters especially for accessible luxury. A bag is rarely only a functional answer to a query. Its value depends on design codes, materials, status, service and the feeling around the purchase. A faster checkout is useful after someone has decided. It may be less useful if the compressed interface makes one brand look interchangeable with the next."
+      },
+      {
+        "type": "heading",
+        "text": "A conversion win can hide a relationship loss"
+      },
+      {
+        "type": "paragraph",
+        "text": "I would not judge this only by completion rate. I would compare native AI checkout with visits to the brand site on order value, returns, new-customer share, loyalty enrolment and repeat purchase over ninety days. I would also watch whether shoppers later search for Coach or Kate Spade by name, because the assistant might have solved the purchase without building much memory for the brand."
+      },
+      {
+        "type": "paragraph",
+        "text": "The best outcome is not simply more bags sold inside Gemini. It is a system where Google removes administrative friction while the brand still supplies enough meaning to be chosen deliberately. If the shopper remembers only that the AI found a suitable black bag, the interface won. If they remember why it had to be Coach, the brand did too."
+      }
+    ]
+  },
+  {
     "slug": "starbucks-peanuts-fall-merch",
     "brand": "Starbucks",
     "industry": "Coffee & retail",
