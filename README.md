@@ -21,6 +21,6 @@ Edit `site.json` for the site introduction and LinkedIn link. The About page cop
 
 ## Editorial and social release
 
-Research leads run on Monday, Wednesday and Friday from free public feeds. They are leads, not publishable articles. Check original brand or company sources, dates and product details; distinguish an opinion from a measured result; include limitations and links. Write the article in Akshat's own voice. Review the website, LinkedIn and Instagram drafts together.
+Research leads run on Monday, Wednesday and Friday from free public feeds. They are leads, not publishable articles. Check original brand or company sources, dates and product details; distinguish an opinion from a measured result; include limitations and links. Write the article in Akshat's own voice. Review the website, LinkedIn post and its supporting image together.
 
-The website can be published through GitHub Pages. LinkedIn and Instagram posting are separate steps and are not automated or connected here. When those routes are available, publish the website, verify its public URL, then post the social adaptations in one coordinated release session. Record the live links. Do not imply a social post went live unless it did.
+The website can be published through GitHub Pages. LinkedIn posting is a separate step and is not automated or connected here. When those routes are available, publish the website, verify its public URL, then post the social adaptations in one coordinated release session. Record the live links. Do not imply a social post went live unless it did.
