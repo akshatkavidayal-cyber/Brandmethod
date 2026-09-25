@@ -1,6 +1,15 @@
 name: Publish coordinated release
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "content/**"
+      - "assets/**"
+      - "scripts/**"
+      - "site.json"
+      - ".github/workflows/publish.yml"
 permissions:
   contents: read
   pages: write
