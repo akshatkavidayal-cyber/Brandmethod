@@ -1,5 +1,103 @@
 [
   {
+    "slug": "sonos-feel-the-system",
+    "brand": "Sonos",
+    "logo": "logo-sonos.svg",
+    "industry": "Consumer audio & software",
+    "lens": "Repositioning & product truth",
+    "category": "campaign",
+    "date": "2026-09-14",
+    "title": "Sonos is selling the system after the system broke",
+    "dek": "The new campaign replaces speaker specifications with warmth, collage and whole-home emotion. That is smart. It also makes reliability part of every brand promise.",
+    "opening": "Sonos has launched a beautiful campaign about speakers finding each other. The line is “Love the Sound. Feel the System.” My first reaction was that the brand had finally found a warmer way to explain its advantage. My second was harder: the system is also the part customers most need to trust again.",
+    "limitation": "Sonos's own materials establish the campaign, creative system, product positioning, Sonos 27 features and management's description of its recovery work. They do not publish campaign spend, awareness lift, consideration, incremental multi-product sales or current customer-level reliability data. The relationship between the campaign and the earlier app problems is my strategic interpretation.",
+    "sources": [
+      {
+        "label": "Sonos launches Love the Sound. Feel the System, 14 September 2026",
+        "url": "https://newsroom.sonos.com/270888-sonos-launches-new-global-brand-campaign-love-the-sound-feel-the-system/"
+      },
+      {
+        "label": "Sonos 27 adds AI control and an easier app experience, 8 September 2026",
+        "url": "https://investors.sonos.com/news-and-events/investor-news/latest-news/2026/Sonos-27-Adds-AI-Control-New-Ways-to-Move-Sound-and-an-Easier-App-Experience-to-your-Sonos-System/default.aspx"
+      },
+      {
+        "label": "Sonos CEO letter on reliability and customer recovery, 23 July 2025",
+        "url": "https://newsroom.sonos.com/256503-ceo-letter-to-employees/"
+      },
+      {
+        "label": "Sonos introduces its redesigned app, 23 April 2024",
+        "url": "https://newsroom.sonos.com/254658-sonos-unveils-completely-reimagined-sonos-app-bringing-services-content-and-system-controls-to-one-customizable-home-screen/"
+      }
+    ],
+    "story": [
+      {
+        "type": "heading",
+        "text": "The campaign stops explaining speakers"
+      },
+      {
+        "type": "paragraph",
+        "text": "Sonos says the new global platform moves away from specification-heavy audio language and towards the feeling of a whole-home system. Joy belongs in the kitchen, love in the bedroom and awe in the living room. The creative uses hand-drawn “dance card” diagrams, collage, craft marks and emotional photography rather than the polished black-product-on-black-background language that premium audio often defaults to."
+      },
+      {
+        "type": "paragraph",
+        "text": "I like that decision. Multi-room audio is difficult to dramatise because its benefit is not located in a single object. The speaker matters, but the more distinctive moment is when several speakers behave like one. Turning configuration diagrams into art makes the invisible relationship visible."
+      },
+      {
+        "type": "aside",
+        "label": "The strategic sentence",
+        "text": "Sonos is asking people to buy a system one speaker at a time."
+      },
+      {
+        "type": "heading",
+        "text": "A warm feeling carries a commercial job"
+      },
+      {
+        "type": "paragraph",
+        "text": "The campaign arrives beside Sonos 27, a new generation of the company's audio operating system, and two flagship products. Sonos says the app was shaped and tested with its community, adds simpler navigation and introduces new ways to connect headphones, portable speakers and voice control to the wider system."
+      },
+      {
+        "type": "paragraph",
+        "text": "That makes the brand idea more than decoration. If every device becomes more useful as another one joins it, “feel the system” can turn an individual purchase into a reason to stay, add rooms and upgrade over time. The system is both the experience and the retention mechanism."
+      },
+      {
+        "type": "heading",
+        "text": "The promise has history"
+      },
+      {
+        "type": "paragraph",
+        "text": "Sonos cannot talk about effortless connection as if the subject were neutral. Its 2024 app redesign was followed by a public recovery effort. In July 2025, CEO Tom Conrad wrote that the company had drifted from customer expectations, restored missing features and created dedicated teams for performance, reliability and the core experience. He described the conversation as moving from “what-we've-broken” towards what the company could become."
+      },
+      {
+        "type": "paragraph",
+        "text": "That history makes the new campaign more interesting. The company is returning to the exact advantage that became vulnerable. I think that is the right choice: avoiding the system would avoid the reason Sonos exists. But every emotional claim now carries a functional burden. Speakers finding each other has to be a dependable behaviour before it can be magic."
+      },
+      {
+        "type": "heading",
+        "text": "Handmade warmth can only carry the first half"
+      },
+      {
+        "type": "paragraph",
+        "text": "The collage, imperfect lettering and human marks make the brand feel less like an interface company. They also risk becoming a cosmetic answer to a product-memory problem. People who remember failed controls or missing features will not be persuaded by warmth alone. For them, the most convincing media is a system that works quietly for months."
+      },
+      {
+        "type": "heading",
+        "text": "What I would test"
+      },
+      {
+        "type": "paragraph",
+        "text": "I would separate existing Sonos households from people entering the brand. For prospects, I would test whether the work increases understanding of the whole-home system and consideration of a second product. For owners, I would track setup completion, successful multi-room sessions, support contacts, app satisfaction and trust over time. I would also compare hand-drawn system stories with product demonstrations to see where emotion needs proof."
+      },
+      {
+        "type": "heading",
+        "text": "The brand idea is brave because it is accountable"
+      },
+      {
+        "type": "paragraph",
+        "text": "“Feel the System” puts Sonos back on the ground it should own. It also gives customers a simple standard by which to judge it. If the system disappears into the music, the campaign feels true. If the system becomes the thing people have to fight, no amount of beautiful collage can make the promise hold."
+      }
+    ]
+  },
+  {
     "slug": "natural-light-garage-sponsorship",
     "brand": "Natural Light",
     "logo": "logo-natural-light.png",

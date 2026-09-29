@@ -18,3 +18,4 @@ These marks identify the subjects of independent case studies. Brand Method is n
 | `logo-escentric.svg` | [Escentric Molecules official website](https://www.escentric.com/) |
 | `logo-pepsico.svg` | [Wikimedia Commons, sourced to PepsiCo](https://commons.wikimedia.org/wiki/File:PepsiCo_(2025,_wordmark).svg) |
 | `logo-natural-light.png` | [Natural Light official website](https://www.naturallight.com/) |
+| `logo-sonos.svg` | [Simple Icons](https://simpleicons.org/?q=sonos) |
