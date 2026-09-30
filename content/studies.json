@@ -1,5 +1,103 @@
 [
   {
+    "slug": "target-inside-out-red-bag",
+    "brand": "Target",
+    "logo": "logo-target.svg",
+    "industry": "Retail",
+    "lens": "Distinctive assets & brand strategy",
+    "category": "campaign",
+    "date": "2026-09-22",
+    "title": "Target made the shopping bag do the brand strategy",
+    "dek": "Inside Out turns a checkout object into a stage for identity, discovery and design. The bag is familiar enough to travel; the harder job is making its contents feel distinctly Target.",
+    "opening": "Target's new campaign begins with a red shopping bag. That sounds almost too obvious. But the bag may be the most useful object in the entire brand: it carries several categories at once, leaves the store with the customer and turns an ordinary trip into something other people can see.",
+    "limitation": "Target's own materials establish the campaign idea, channels, activations, design exhibition and wider 2026 strategy. They do not report campaign spend, incremental traffic, basket size, sales, brand lift or participation results for Red Bag Stories or Bagspotting. The analysis of the bag as a media and positioning device is my interpretation.",
+    "sources": [
+      {
+        "label": "Inside Target's Next Chapter of Great Design for All, 22 September 2026",
+        "url": "https://corporate.target.com/news-features/article/2026/09/inside-out-campaign"
+      },
+      {
+        "label": "Target outlines its 2026 growth strategy, 3 March 2026",
+        "url": "https://corporate.target.com/news-features/article/2026/03/target-growth-strategy-2026"
+      },
+      {
+        "label": "Target by Design exhibition announcement, 9 September 2026",
+        "url": "https://corporate.target.com/press/release/2026/09/target-celebrates-legacy-of-style-and-design-in-an-immersive-presentation-in-new-york-city"
+      },
+      {
+        "label": "Target corporate strategy",
+        "url": "https://corporate.target.com/about/purpose-history/our-corporate-strategy"
+      }
+    ],
+    "story": [
+      {
+        "type": "heading",
+        "text": "The bag solves a multi-category problem"
+      },
+      {
+        "type": "paragraph",
+        "text": "Inside Out pairs people, products and everyday moments around the idea that what someone brings home can say something about who they are. The campaign line is “Whatever brings you joy, it's in the bag.” Target uses the same red bag across fashion, food, home, beauty, toys and culture, giving a retailer with thousands of different products one simple frame."
+      },
+      {
+        "type": "paragraph",
+        "text": "I think that is the strategic move. A hero product would show one department. A bag can hold all of them. It also keeps the customer at the centre: the interesting thing is not only what Target sells, but the personal combination someone chooses."
+      },
+      {
+        "type": "aside",
+        "label": "Why the object works",
+        "text": "The bag is packaging, proof of purchase and out-of-home media carried by the customer."
+      },
+      {
+        "type": "heading",
+        "text": "Target made participation part of the campaign"
+      },
+      {
+        "type": "paragraph",
+        "text": "The national campaign runs across television, streaming, digital, social and audio, but the bag does more than appear in the film. Red Bag Stories asks creators to show what they carry for real-life moments. Bagspotting brings street-style challenges to Boston and Chicago. Target is also distributing reusable bags across five cities and two college campuses."
+      },
+      {
+        "type": "paragraph",
+        "text": "At the Target by Design experience in New York, the bag became a canvas. Established and emerging creatives produced one-off interpretations, and visitors could customise their own. The object moves from prop to prompt: show me what is inside, show me how you wear it, show me what you make of it."
+      },
+      {
+        "type": "heading",
+        "text": "The campaign is carrying a turnaround strategy"
+      },
+      {
+        "type": "paragraph",
+        "text": "Earlier in 2026, Target put style, design and value at the centre of its growth plan. The company said it would refresh stores, improve discovery and make more intentional choices in categories where it can differentiate. Inside Out gives that corporate strategy a consumer-facing symbol. The red bag says that a Target trip should produce a combination worth noticing."
+      },
+      {
+        "type": "paragraph",
+        "text": "That is more demanding than a cheerful piece of advertising. If the products feel generic, the bag becomes only a logo. If the assortment delivers design, surprise and value together, the contents provide evidence for the positioning every time someone empties it at home."
+      },
+      {
+        "type": "heading",
+        "text": "Familiarity can turn into wallpaper"
+      },
+      {
+        "type": "paragraph",
+        "text": "The red bag is recognisable, but recognisable objects can disappear through repetition. The campaign also risks asking the customer to supply most of the meaning. “Joy” and self-expression are broad enough for almost any retailer to claim. Target has to make the combinations inside the bag feel specific to its mix of owned brands, partnerships, price and design."
+      },
+      {
+        "type": "heading",
+        "text": "What I would test"
+      },
+      {
+        "type": "paragraph",
+        "text": "I would compare creative led by the bag with creative led by products. Does the bag improve unaided Target recall, multi-category consideration and the expectation of discovery? I would track whether Red Bag Stories create saves, store searches and broader baskets rather than only attractive posts. For existing shoppers, I would ask which products made the campaign feel distinctly Target and which could have come from anywhere."
+      },
+      {
+        "type": "heading",
+        "text": "The bag is a promise with handles"
+      },
+      {
+        "type": "paragraph",
+        "text": "Target has taken the last object in the shopping journey and made it the first object in the story. That is efficient brand building. The red bag can travel far beyond the store. Its value, however, will always depend on whether people are excited by what they found inside."
+      }
+    ]
+  },
+  {
     "slug": "sonos-feel-the-system",
     "brand": "Sonos",
     "logo": "logo-sonos.svg",
