@@ -3,6 +3,7 @@
 
 import html
 import json
+import re
 import shutil
 from pathlib import Path
 from xml.etree.ElementTree import Element, SubElement, ElementTree
@@ -65,6 +66,11 @@ def paragraphs(items):
     return "".join(f"<p>{e(item)}</p>" for item in items)
 
 
+def inline_text(value):
+    escaped = e(value)
+    return re.sub(r'\[([^\]]+)\]\((https://[^\s)]+)\)', r'<a href="\2" target="_blank" rel="noopener noreferrer">\1</a>', escaped)
+
+
 def story_blocks(blocks):
     rendered = []
     for block in blocks:
@@ -72,7 +78,7 @@ def story_blocks(blocks):
         if kind == "heading":
             rendered.append(f'<h2 class="story-heading">{e(block["text"])}</h2>')
         elif kind == "paragraph":
-            rendered.append(f'<p>{e(block["text"])}</p>')
+            rendered.append(f'<p>{inline_text(block["text"])}</p>')
         elif kind == "list":
             items = "".join(f'<li>{e(item)}</li>' for item in block["items"])
             rendered.append(f'<ul class="story-list">{items}</ul>')
@@ -87,10 +93,11 @@ def render_study(study):
     sources = "".join(f'<li><a href="{e(item["url"])}" target="_blank" rel="noopener noreferrer">{e(item["label"])} <span aria-hidden="true">↗</span></a></li>' for item in study["sources"])
     origin = e(study.get("origin", "Independent analysis"))
     rail_mark = f'<img class="article-logo" src="../{e(study["logo"])}" alt="{e(study["brand"])} logo" loading="lazy">' if study.get("logo") else f'<div class="rail-number">{e(study["brand"][0])}<span>.</span></div>'
+    hero = f'<figure style="margin:0 0 2rem"><img src="../{e(study["hero_image"])}" alt="Less appetite. A harder brief. Original Brand Method editorial illustration." width="1600" height="838" style="max-width:100%;height:auto"></figure>' if study.get("hero_image") else ""
     related = '<a href="../brand-marketing/">Brand marketing practice ↗</a><a href="../work/">Professional work ↗</a>'
     if study['brand'].lower() in ('vaseline', 'daddy', 'duolingo'):
         related += '<a href="../research/influencer-selection-fmcg/">Influencer selection research ↗</a>'
-    body = f'''<article class="article"><div class="article-topline"><a href="../insights/" class="back-link">← All insights</a><span>FIELD NOTE / {e(study['brand']).upper()}</span></div><header class="article-header"><p class="eyebrow">{e(study['industry'])} <span aria-hidden="true">/</span> {e(study['lens'])}</p><h1>{e(study['title'])}</h1><p class="article-dek">{e(study['dek'])}</p><div class="article-meta"><span>{e(study['date'])}</span><span>{origin}</span></div></header><div class="article-layout"><aside class="article-rail">{rail_mark}<p>BRAND<br>{e(study['brand']).upper()}</p><p>ANALYSIS<br>{e(study['lens']).upper()}</p></aside><div class="article-content"><p class="article-opening">{e(study['opening'])}</p><div class="story-body">{story_blocks(study['story'])}</div><section class="source-block"><p class="section-number">SOURCE NOTES</p><h2>What the sources can and cannot tell us</h2><p>{e(study['limitation'])}</p><ul>{sources}</ul></section><section class="related-links"><p class="section-number">EXPLORE THE LENS</p><div class="inline-links">{related}</div></section></div></div><div class="article-end"><a href="../insights/">← Back to all insights</a></div></article>'''
+    body = f'''<article class="article"><div class="article-topline"><a href="../insights/" class="back-link">← All insights</a><span>FIELD NOTE / {e(study['brand']).upper()}</span></div><header class="article-header"><p class="eyebrow">{e(study['industry'])} <span aria-hidden="true">/</span> {e(study['lens'])}</p><h1>{e(study['title'])}</h1><p class="article-dek">{e(study['dek'])}</p><div class="article-meta"><span>{e(study['date'])}</span><span>{origin}</span></div></header><div class="article-layout"><aside class="article-rail">{rail_mark}<p>BRAND<br>{e(study['brand']).upper()}</p><p>ANALYSIS<br>{e(study['lens']).upper()}</p></aside><div class="article-content">{hero}<p class="article-opening">{e(study['opening'])}</p><div class="story-body">{story_blocks(study['story'])}</div><section class="source-block"><p class="section-number">SOURCE NOTES</p><h2>What the sources can and cannot tell us</h2><p>{e(study['limitation'])}</p><ul>{sources}</ul></section><section class="related-links"><p class="section-number">EXPLORE THE LENS</p><div class="inline-links">{related}</div></section></div></div><div class="article-end"><a href="../insights/">← Back to all insights</a></div></article>'''
     return shell(study["title"], study["dek"], body, depth=1, path=f"studies/{study['slug']}.html", kind="Article", extra_schema={"headline":study["title"],"datePublished":study["date"],"mainEntityOfPage":BASE+f"studies/{study['slug']}.html"})
 
 
