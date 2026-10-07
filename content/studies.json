@@ -1,8 +1,8 @@
 [
   {
     "slug": "every-bite-has-to-work-harder",
-    "brand": "PepsiCo / Big Food",
-    "logo": "logo-pepsico.svg",
+    "brand": "Big Food / GLP-1",
+    "logo": "every-bite-fmcg-collage.png",
     "industry": "Food & beverage",
     "lens": "Consumer behaviour & portfolio strategy",
     "category": "product",
@@ -271,8 +271,10 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/39888616/"
       }
     ],
-    "hero_image": "every-bite-linkedin.png",
-    "limitation": "Clinical evidence and household purchase research support appetite and spending effects in studied populations. Company announcements establish product design intent, not incremental sales, repeat purchase, clinical efficacy or higher margins. US survey estimates should not be extrapolated globally. Protein demand predates the current GLP-1 wave. The final purchase-study abstract and free author-institution account were accessed; paid full text was not. Research checked 7 October 2026. Nutritional return per bite is an editorial metaphor, not a validated nutritional score."
+    "hero_image": "every-bite-fmcg-collage.png",
+    "limitation": "Clinical evidence and household purchase research support appetite and spending effects in studied populations. Company announcements establish product design intent, not incremental sales, repeat purchase, clinical efficacy or higher margins. US survey estimates should not be extrapolated globally. Protein demand predates the current GLP-1 wave. The final purchase-study abstract and free author-institution account were accessed; paid full text was not. Research checked 7 October 2026. Nutritional return per bite is an editorial metaphor, not a validated nutritional score.",
+    "hero_alt": "FMCG collage: PepsiCo, Danone, Kraft Heinz, General Mills and Coca-Cola in original colors.",
+    "image_credits": "fmcg-collage-credits.md"
   },
   {
     "slug": "target-inside-out-red-bag",
