@@ -1,5 +1,71 @@
 [
   {
+    "slug": "auchan-le-choix-des-couleurs-human-campaign",
+    "brand": "Auchan",
+    "logo": "logo-auchan.svg",
+    "industry": "Food retail & families",
+    "lens": "Creative campaigns",
+    "category": "campaign",
+    "date": "2026-10-18",
+    "title": "The Warmth of a Simple Idea",
+    "dek": "Auchan’s Le Choix des Couleurs: a personal appreciation of the care behind making children’s nutrition feel approachable.",
+    "origin": "By Akshat Kavidayal · Personal reflection",
+    "opening": "Auchan’s Le Choix des Couleurs made me feel warmth. That was my first reaction, before I started reading about the work behind it. I liked the colours and the playfulness, but what stayed with me was the care I felt in the approach. Children’s nutrition is a serious subject. Here was an invitation to explore it that felt welcoming.",
+    "story": [
+      {
+        "type": "paragraph",
+        "text": "Created with TBWA\\Paris, the campaign gives children a practical way into the subject through coloured food-group boxes they can arrange into a meal. Parents accompany them, and the activity has a home in the supermarket, where families already make decisions about food. It gives children a part to play in something that can otherwise be decided entirely around them."
+      },
+      {
+        "type": "paragraph",
+        "text": "I can understand why this appealed to me. Conversations about eating well can become crowded very quickly. There are ingredients, portions, habits and preferences to consider, along with the ordinary difficulties of feeding a family. A child does not need all that complexity presented at once to begin taking an interest. A colour, a shape or something they can choose is a place to start."
+      },
+      {
+        "type": "paragraph",
+        "text": "That is where I think simplicity becomes difficult. You have to decide what someone needs to understand first, and what can wait. You also have to respect the subject enough to know that a playful introduction cannot contain all of it. Making something important feel simple without making it feel trivial takes care. I appreciate the judgement involved in finding that starting point."
+      },
+      {
+        "type": "paragraph",
+        "text": "The creative collaborators help give the invitation its warmth. Clémence Germain worked on the objects, Alexandre Nart illustrated the characters, and Aldebert contributed the song. I like that there are different ways for a child to approach the idea: through their hands, through a character, through music. To me, those details make the activity feel thoughtfully considered rather than decorated after the fact."
+      },
+      {
+        "type": "paragraph",
+        "text": "I also appreciate the room this leaves for parents. They can take part with their children, talk about the choices and explore the activity together. I would not want to turn that into a promise about how every family will respond. It is simply an approach I find generous: offer something people can do together, without making the conversation feel like a test they might fail."
+      },
+      {
+        "type": "paragraph",
+        "text": "None of this tells us whether the campaign changes eating habits or improves children’s health. That would require evidence beyond the creative work itself. My appreciation is for what has been made and how it approaches its audience. I do not need to attach a larger claim to explain why it moved me."
+      },
+      {
+        "type": "paragraph",
+        "text": "Sometimes, I want to write about a campaign because I have an argument with it. This time, I wanted to acknowledge the thought and sensitivity I see in the work. Congratulations to Auchan, TBWA\\Paris and everyone who brought Le Choix des Couleurs to life. The warmth of the idea is what I will remember.\n"
+      }
+    ],
+    "limitation": "This is my personal response to the creative work. Official campaign descriptions and public credits establish the execution and contributors, not changes to children’s health or eating habits. Children are the primary participants, with parents accompanying them. Campaign photographs and illustrations have not been reproduced because reuse rights remain unconfirmed.",
+    "sources": [
+      {
+        "label": "Auchan campaign landing page",
+        "url": "https://www.auchan.fr/le-choix-des-couleurs/ep-le-choix-des-couleurs"
+      },
+      {
+        "label": "TBWA Paris campaign page",
+        "url": "https://tbwa-paris.com/work/le-choix-des-couleurs/"
+      },
+      {
+        "label": "La Réclame interview with Sandrine Burgat",
+        "url": "https://lareclame.fr/tbwaparis-auchan-parole-annonceur-retail-lechoixdescouleurs-331709"
+      },
+      {
+        "label": "TBWA agency-submitted campaign portfolio and credits",
+        "url": "https://lareclame.fr/tbwaparis/realisations/le-choix-des-couleurs"
+      },
+      {
+        "label": "TBWA Paris October rollout post",
+        "url": "https://fr.linkedin.com/posts/tbwa-paris_apr%C3%A8s-le-succ%C3%A8s-des-premi%C3%A8res-op%C3%A9rations-activity-7516531392134971392-JTOn"
+      }
+    ]
+  },
+  {
     "slug": "every-bite-has-to-work-harder",
     "brand": "Big Food / GLP-1",
     "logo": "every-bite-fmcg-collage.png",
@@ -1325,3 +1391,4 @@
     "logo": "logo-pepsico.svg"
   }
 ]
+

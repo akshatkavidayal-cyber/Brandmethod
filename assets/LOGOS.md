@@ -20,3 +20,8 @@ These marks identify the subjects of independent case studies. Brand Method is n
 | `logo-natural-light.png` | [Natural Light official website](https://www.naturallight.com/) |
 | `logo-sonos.svg` | [Simple Icons](https://simpleicons.org/?q=sonos) |
 | `logo-target.svg` | [Simple Icons](https://simpleicons.org/?q=target) |
+
+
+## Auchan
+Original Auchan wordmark, original colours, sourced from https://commons.wikimedia.org/wiki/File:Auchan_wordmark.svg (PD-textlogo designation; trademarks remain protected). Editorial identification only.
+
